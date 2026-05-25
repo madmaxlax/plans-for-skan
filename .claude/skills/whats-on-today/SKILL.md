@@ -1,6 +1,6 @@
 ---
 name: whats-on-today
-description: Daily Skaneateles vacation briefing — fetches live weather + lake temp for the 1557 Red Tail Ln house, visualizes the day's forecast, suggests activities split between toddler-Egan-friendly and adult/personal options, and tracks what's already been done or ruled out. Use this whenever the user asks "what's on today", "what should we do", "plan the day", "is it a lake day", "should we go to X", or mentions tracking what they've done / aren't interested in for the trip. Even loose phrasings like "what's the day looking like" or "give me the briefing" should trigger this.
+description: Daily Skaneateles vacation briefing — fetches live weather + lake temp for the 1557 Red Tail Ln house, visualizes the day's forecast, suggests activities split between toddler-Egan-friendly and adult/personal options, and tracks what's already been done or ruled out. Also handles activity catalog edits that must stay in sync with the Next.js site (root `.md` + matching `page.tsx`). Use this whenever the user asks "what's on today", "what should we do", "plan the day", "is it a lake day", "should we go to X", mentions tracking what they've done / aren't interested in for the trip, or wants to add/remove activities from the guide. Even loose phrasings like "what's the day looking like", "give me the briefing", or "add a new restaurant to the guide" should trigger this.
 ---
 
 # What's On Today
@@ -12,7 +12,10 @@ The user is in (or planning) a June 2026 family trip to Skaneateles, NY — hous
 1. **Run the briefing script** to pull live weather + lake temp + activity history in one shot
 2. **Read the relevant guide markdown** for activity ideas based on the weather pattern
 3. **Compose the briefing** (markdown in chat by default; HTML dashboard if requested)
-4. **Offer to log** the day's plans / completed activities at the end
+4. **Handle catalog vs personal-preference edits correctly** — see Step 5 below. Adding/removing activities from the guide is a different operation than logging personal state.
+5. **Offer to log** the day's plans / completed activities at the end
+
+The root markdown files (`*.md` at the repo root) are the **single source of truth for the activity catalog** — they're shared with the Next.js site. The skill's `activity-log.json` only stores personal state (done/skip/want) layered on top.
 
 ## Step 1: Get today's data
 
@@ -87,7 +90,37 @@ bun run /Users/struevermax/dev/plans-for-skan/.claude/skills/whats-on-today/scri
 
 This writes `/tmp/whats-on-today.html` and prints the path. Tell the user the path so they can `open` it. Don't auto-open — let them choose.
 
-## Step 5: Offer to log
+## Step 5: Distinguish "personal preference" from "catalog edit"
+
+This matters because the activity catalog is shared with the Next.js site. Don't treat every user comment as a log entry.
+
+| User says | What it means | What you do |
+|---|---|---|
+| "We did the boat ride yesterday" | personal state | `log.js done "Boat ride"` |
+| "Not interested in glassblowing" | personal preference | `log.js skip "Glassblowing in Corning"` |
+| "Want to try the Highland Forest hike" | personal flag | `log.js want "Highland Forest"` |
+| "Add the new ice cream shop on Genesee — it's called Doug's" | **catalog addition** | Edit the matching root `.md` AND `app/<route>/page.tsx`. The skill will pick it up automatically next briefing. |
+| "Take Bluewater Grill out of the guide, it closed" | **catalog removal** | Edit the root `.md` AND `app/<route>/page.tsx`. Don't use `skip` — `skip` is personal taste, not "this doesn't exist anymore". |
+
+When in doubt, ask: *"Is this just a personal preference, or should this come out of the guide entirely?"* The first is a log entry; the second is a catalog edit that must touch both the `.md` and the `page.tsx`.
+
+### Markdown ↔ page.tsx map
+
+When making catalog edits, here's the pairing (also in `agents.md` at the repo root):
+
+| Section | Root markdown | Page |
+|---|---|---|
+| Sports & activities | `sports-and-activities.md` | `app/sports/page.tsx` |
+| Toddler / Egan | `toddler-and-egan.md` + `daycares-dropins.md` | `app/toddler/page.tsx` |
+| Hikes & outdoors | `hikes-and-outdoors.md` | `app/outdoors/page.tsx` |
+| Day trips & events | `day-trips-and-events.md` | `app/day-trips/page.tsx` |
+| Lake activities | `lake-activities.md` | `app/lake/page.tsx` |
+| Restaurants | `restaurants.md` | `app/food/page.tsx` |
+| Rainy day | `rainy-day.md` | `app/rainy-day/page.tsx` |
+
+After any catalog edit, commit and push per the repo's agents.md convention.
+
+## Step 6: Offer to log
 
 After delivering the briefing, ask a brief follow-up like:
 

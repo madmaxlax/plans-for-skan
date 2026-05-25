@@ -51,5 +51,23 @@ Don't leave work uncommitted. If in doubt, commit and push.
 ### Content edits
 When updating a page's facts (hours, phone numbers, prices), update **both** the source `*.md` at the repo root **and** the matching `app/<route>/page.tsx`. The markdown is the research record; the page is what gets rendered.
 
+### Activity catalog sync (site ↔ `whats-on-today` skill)
+
+The root markdown files are the **single source of truth** for the activity catalog. They're consumed by both the site (hand-built `app/<route>/page.tsx` pages) and the [whats-on-today skill](.claude/skills/whats-on-today/) (which reads them at runtime when composing the briefing).
+
+When activities are added, removed, or modified — wherever the change originates — they must propagate to all three layers:
+
+1. **Catalog (root `.md`)** — the canonical list, with hours, prices, notes
+2. **Site (`app/<route>/page.tsx`)** — what gets rendered to the family
+3. **Skill log (`.claude/skills/whats-on-today/data/activity-log.json`)** — personal state (done/skip/want) layered on top of the catalog
+
+Rules:
+- **Adding a new activity** (e.g., user discovers a new restaurant) → add to the matching root `.md` AND the matching `page.tsx`. The skill will pick it up automatically since it reads the markdown.
+- **Removing an activity** from the catalog entirely (it closed, bad info, not real) → remove from both the `.md` and the `page.tsx`. Don't use the skill's `skip` for this — `skip` is for things the user personally isn't interested in.
+- **User says "we're not interested in X" via the skill** → log as `skip` in `activity-log.json` (the skill handles this). Leave the catalog alone — the activity still exists, this user just doesn't want it suggested.
+- **User says "remove X from the guide, it's not real"** → that's a catalog change. Edit the `.md` and `page.tsx`.
+
+The skill's SKILL.md explains how to handle this when the user is mid-conversation; this section is the durable repo-level convention.
+
 ### Ephemeral notes
 Working docs, debugging logs, and WIP go under `agent-notes/local/` (gitignored) or `agent-notes/shared/` (tracked). Don't drop scratch `.md` files at the repo root — those are reserved for the per-section vacation guides.
