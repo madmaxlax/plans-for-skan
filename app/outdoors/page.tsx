@@ -121,6 +121,17 @@ const CLOSE_HIKES: HikeProps[] = [
     stars: 0,
     accent: "none",
   },
+  {
+    name: "Baltimore Woods Nature Center",
+    distance: "180+ acres of trails",
+    difficulty: "Easy–Moderate",
+    driveTime: "~15 min",
+    highlights: "Trail network through forest, meadows, and ponds. Trails open year-round. Programs available (most age 5+). Weekly free Naturalist's Bumble for adults Wed 9am.",
+    toddlerVerdict: "Easy-to-moderate trails work for stroller hikes; nature center building has program calendar for older kids.",
+    address: "4007 Bishop Hill Rd, Marcellus, NY",
+    stars: 0,
+    accent: "none",
+  },
 ];
 
 const MID_HIKES: HikeProps[] = [

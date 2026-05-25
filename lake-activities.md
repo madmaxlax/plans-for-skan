@@ -44,11 +44,6 @@
 - Mon–Sat; includes fuel and safety equipment
 - [thesailboatshop.com](https://www.thesailboatshop.com)
 
-### Boatsetter (Peer-to-Peer)
-- Private boat rentals from ~$30/hr in the Skaneateles area
-- Various vessel types: fishing boats, pontoons, bowriders
-- [boatsetter.com](https://www.boatsetter.com) — search "Skaneateles, NY"
-
 ---
 
 ## Sailing
@@ -112,10 +107,6 @@
 - **Starting price:** ~$600/group trip
 - **Family-friendly:** All ages welcome ⭐ — good option with Egan if he's up for a boat trip
 - **TripAdvisor:** Rated 5.0 (10 reviews) — highly praised
-
-**Upstate Guide Service**
-- Fly fishing focus on Skaneateles Lake
-- [upstateguideservice.com](https://upstateguideservice.com)
 
 ---
 

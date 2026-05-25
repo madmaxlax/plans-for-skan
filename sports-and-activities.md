@@ -81,33 +81,51 @@
 
 ---
 
-### Drumlins Country Club — West Course (SU Public)
-**Scenic Syracuse University public course, great views**
+### West Hill Golf Course
+**18-hole par-3 in Camillus (haven't played it yet — want to try)**
 
-- **Address:** Nottingham Road, Syracuse, NY (Syracuse University)
-- **Distance:** ~25 minutes from Skaneateles
-- **Type:** Public | 18 holes
-- **Green Fees 2026:**
-
-| Format | Rate |
-|---|---|
-| 18 holes with cart (Mon–Thu) | $35 |
-| 18 holes with cart (Fri–Sun) | $40 |
-| Twilight (after 6:30pm, walking only) | $15 |
-
-- **Website:** drumlins.syracuse.edu/golf/west-course-public
-- **Notes:** "Most scenic front nine in Central New York." Great value, especially twilight rate.
+- **Address:** 180 Par Place, Camillus, NY 13031
+- **Distance:** ~20 minutes from Skaneateles
+- **Type:** Public | 18-hole **par 3** + footgolf available
+- **Green Fees:** $18 walking (all 18)
+- **Pace:** ~3 hours to play all 18
+- **Phone:** (315) 672-8677
+- **Website:** westhillgolfcourse.com
+- **Notes:** Haven't played it yet — looks like a fun par-3 round. Footgolf option is a nice twist.
 
 ---
 
-### West Hill Golf Course
-**Short public 9-hole option**
+### Vesper Hills Golf Club
+**Par 72 public 18 with a signature island hole + on-site restaurant**
 
-- **Address:** West Hill area, Syracuse, NY
-- **Distance:** ~20 minutes from Skaneateles
-- **Type:** Public | 9 holes
-- **Green Fees 2026:** 9 holes walking: $20 / $20.60
-- **Website:** westhillgolfcourse.com
+- **Address:** 4291 Octagon Rd, Tully, NY 13159
+- **Distance:** ~25 minutes south of Skaneateles
+- **Type:** Public | 18 holes, par 72
+- **Phone:** (315) 696-8328
+- **Notes:** Signature island hole. Pair a round with **The Loft restaurant** on-site after (see restaurants).
+
+---
+
+### Sunset Pines Executive ("The View")
+**Par 3, 9-hole executive course**
+
+- **Address:** 4568 Octagon Rd, Tully, NY 13159
+- **Distance:** ~25 minutes south of Skaneateles (in Tully — farther than the others)
+- **Type:** Public | 9 holes, par 3 executive
+- **Phone:** (315) 810-4180
+- **Notes:** Quick executive loop if you're already heading down toward Tully.
+
+---
+
+### Sunset Ridge Golf Club
+**Championship 18 in Marcellus with on-site Sunset Grille restaurant**
+
+- **Address:** 2814 W Seneca Tpke, Marcellus, NY 13108
+- **Distance:** ~15 minutes from Skaneateles
+- **Type:** Public | Championship 18 holes
+- **Phone:** (315) 707-4503
+- **Restaurant:** **Sunset Grille** on-site — Mon–Fri 11am–8:30pm, Sat–Sun 10am–7pm
+- **Notes:** Closest of the new additions. Easy lunch + 18 holes combo.
 
 ---
 
@@ -294,45 +312,12 @@
 
 ---
 
-### 🏁 Finger Lakes Triathlon — Cayuga Lake ⭐
-**June event, ~50 min from Skaneateles — excellent race option**
-
-- **Date:** Sunday, **June 21, 2026**
-- **Location:** Taughannock Falls State Park, 1740 Taughannock Blvd, Trumansburg, NY 14886
-- **Swim:** Cayuga Lake, out-and-back on the South Shore of Taughannock Falls State Park
-
-| Distance | Swim | Bike | Run | Entry Fee |
-|---|---|---|---|---|
-| Sprint | 750m | 14 miles | 5K | ~$139 |
-| Intermediate (Olympic) | 1,500m | 24.3 miles | 10K | ~$149 |
-| Youth | 200m | 9 miles | 1.5 miles | Lower |
-| Aquabike | 1,500m | 24.3 miles | — | ~$149 |
-
-- **Start:** 8:00 AM EDT
-- **Registration deadline:** ~June 1–17, 2026 (verify on site)
-- **Register:** runsignup.com → search "Cayuga Lake Triathlon" or trisignup.com
-- **Distance from Skaneateles:** ~45–55 minutes
-- **Notes:** Beautiful setting. Relay spots reportedly full; individual entries still open. Park has camping if you want to make it a weekend.
-
----
-
 ### Finger Lakes Triathlon — Canandaigua Lake
-- **Date:** June 21, 2026 at 8:00 AM (same day as Cayuga option)
+- **Date:** June 21, 2026 at 8:00 AM
 - **Location:** Canandaigua, NY
 - **Options:** Sprint, Intermediate, Aquabike, Duathlon
 - **Register:** trisignup.com (search "Finger Lakes Triathlon Canandaigua")
 - **Distance from Skaneateles:** ~45 minutes
-
----
-
-### Mudskipper SwimRun — Seneca Lake
-**Alternating open-water swim + trail run format**
-
-- **Date:** June 28, 2026
-- **Location:** Dresden, Seneca Lake, NY
-- **Format:** SwimRun (alternating segments of swimming and running)
-- **Register:** raceroster.com/events/2026/112640/mudskipper-swimrun-seneca-lake-dresden
-- **Distance from Skaneateles:** ~45–50 minutes
 
 ---
 
@@ -433,8 +418,8 @@ The **Skaneateles Community Center** (97 State St, (315) 685-2266, Jcard@skancc.
 | Auburn YMCA Pickleball | auburnymca.org • 62 Turner St, Auburn NY |
 | Highland Park Golf (tee times) | (315) 252-4993 • highlandparkgolfclub.com |
 | Pearl Lakes Golf & Driving Range | (315) 685-6799 • pearllakesgc@gmail.com |
-| Finger Lakes Triathlon (Cayuga) | runsignup.com → "Cayuga Lake Triathlon" |
-| Drumlins West Course (SU) | drumlins.syracuse.edu/golf/west-course-public |
+| Vesper Hills Golf | (315) 696-8328 · 4291 Octagon Rd, Tully NY |
+| Sunset Ridge Golf | (315) 707-4503 · Sunset Grille on-site |
 
 ---
 

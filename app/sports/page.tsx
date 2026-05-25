@@ -20,7 +20,7 @@ interface GolfCourse {
   address: string;
   distance: string;
   type: string;
-  fees: string;
+  fees?: string;
   phone?: string;
   website?: string;
   notes: string;
@@ -73,22 +73,50 @@ const GOLF: GolfCourse[] = [
     accent: "none",
   },
   {
-    name: "Drumlins West Course (Syracuse University Public)",
-    address: "Nottingham Rd, Syracuse, NY",
-    distance: "~25 min",
-    type: "Public · 18 holes",
-    fees: "18w/cart: $35 WD / $40 WE · Twilight (after 6:30pm): $15",
-    website: "drumlins.syracuse.edu/golf/west-course-public",
-    notes: '"Most scenic front nine in Central New York." Great twilight value.',
-    accent: "none",
-  },
-  {
     name: "Tanner Valley Golf Course",
     address: "4040 Tanner Road, Syracuse, NY",
     distance: "~20 min",
     type: "Public · 18 holes + par-3 course",
     fees: "~$18–$21 walking",
     notes: "Cheapest round in CNY. Also has a par-3 course for a quick loop.",
+    accent: "none",
+  },
+  {
+    name: "West Hill Golf Course",
+    address: "180 Par Place, Camillus, NY 13031",
+    distance: "~20 min",
+    type: "Public · 18-hole par 3 + footgolf",
+    fees: "$18 walking (all 18)",
+    phone: "(315) 672-8677",
+    website: "westhillgolfcourse.com",
+    notes: "Haven't played it yet — want to try. ~3 hours to play all 18. Footgolf option is a nice twist.",
+    accent: "none",
+  },
+  {
+    name: "Vesper Hills Golf Club",
+    address: "4291 Octagon Rd, Tully, NY 13159",
+    distance: "~25 min south",
+    type: "Public · 18 holes, par 72",
+    phone: "(315) 696-8328",
+    notes: "Signature island hole. Pair a round with The Loft restaurant on-site after.",
+    accent: "none",
+  },
+  {
+    name: 'Sunset Pines Executive ("The View")',
+    address: "4568 Octagon Rd, Tully, NY 13159",
+    distance: "~25 min south (in Tully, farther than the others)",
+    type: "Public · 9 holes, par 3 executive",
+    phone: "(315) 810-4180",
+    notes: "Quick executive loop if you're already heading down toward Tully.",
+    accent: "none",
+  },
+  {
+    name: "Sunset Ridge Golf Club",
+    address: "2814 W Seneca Tpke, Marcellus, NY 13108",
+    distance: "~15 min",
+    type: "Public · Championship 18",
+    phone: "(315) 707-4503",
+    notes: "On-site Sunset Grille restaurant (Mon–Fri 11am–8:30pm, Sat–Sun 10am–7pm). Easy lunch + 18 holes combo.",
     accent: "none",
   },
 ];
@@ -192,23 +220,6 @@ const SOCCER = [
 
 const EVENTS = [
   {
-    name: "Finger Lakes Triathlon — Cayuga Lake",
-    date: "Sunday, June 21, 2026",
-    location: "Taughannock Falls State Park, Trumansburg, NY",
-    distance: "~45–55 min from Skaneateles",
-    details: "Sprint (750m swim / 14mi bike / 5K run): ~$139. Olympic (1500m / 24.3mi / 10K): ~$149. Swim in Cayuga Lake. 8am start. Register at runsignup.com.",
-    stars: 1,
-    accent: "blue" as const,
-  },
-  {
-    name: "Mudskipper SwimRun — Seneca Lake",
-    date: "June 28, 2026",
-    location: "Dresden, Seneca Lake, NY",
-    distance: "~45–50 min",
-    details: "SwimRun format — alternating open-water swim + trail run segments. Register at raceroster.com.",
-    accent: "none" as const,
-  },
-  {
     name: "Clift Park Open Water Swimming",
     date: "Late June – August",
     location: "Clift Park, Skaneateles",
@@ -216,6 +227,14 @@ const EVENTS = [
     details: "Free public access. Skaneateles Lake is one of the cleanest in the US (supplies Syracuse drinking water without filtration). 16 miles long — ideal open-water training.",
     stars: 1,
     accent: "green" as const,
+  },
+  {
+    name: "Finger Lakes Triathlon — Canandaigua Lake",
+    date: "June 21, 2026",
+    location: "Canandaigua, NY",
+    distance: "~45 min",
+    details: "Sprint, Intermediate, Aquabike, Duathlon options. 8am start. Register at trisignup.com (search 'Finger Lakes Triathlon Canandaigua').",
+    accent: "none" as const,
   },
 ];
 
@@ -243,7 +262,7 @@ function GolfCard({ name, address, distance, type, fees, phone, website, notes, 
       </div>
       <div className="flex flex-wrap gap-1.5 mb-2">
         <Badge label={distance} />
-        <PriceBadge price={fees} />
+        {fees && <PriceBadge price={fees} />}
       </div>
       <div className="text-xs text-slate-500 mb-1">{type}</div>
       {address && (
@@ -276,7 +295,7 @@ export default function SportsPage() {
 
       {/* Golf */}
       <section>
-        <SectionHeader icon={Trophy} title="Golf" subtitle="6 courses within 25 min" />
+        <SectionHeader icon={Trophy} title="Golf" subtitle="Courses within 25 min" />
         <div className="space-y-3">
           {GOLF.map((c) => <GolfCard key={c.name} {...c} />)}
         </div>

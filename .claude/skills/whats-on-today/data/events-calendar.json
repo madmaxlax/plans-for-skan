@@ -1,0 +1,72 @@
+{
+  "trip_windows": [
+    { "start": "2026-06-01", "end": "2026-06-03" },
+    { "start": "2026-06-19", "end": "2026-07-05" }
+  ],
+  "recurring_weekly": [
+    { "dow": "Tue", "venue": "Moondance", "name": "Wing night ($0.70/wing)", "category": "food" },
+    { "dow": "Wed", "venue": "Moondance", "name": "Taco night", "category": "food" },
+    { "dow": "Wed", "venue": "Baltimore Woods", "name": "Naturalist's Bumble (adult walk)", "time": "9:00am", "category": "outdoors", "audience": "adult" },
+    { "dow": "Wed", "venue": "Skaneateles Library", "name": "Story Time", "category": "egan" },
+    { "dow": "Thu", "venue": "Moondance", "name": "Pasta night", "category": "food" },
+    { "dow": "Thu", "venue": "Skan Brewery", "name": "Trivia Nights", "time": "6:30pm-8:00pm", "category": "social" },
+    { "dow": "Thu", "venue": "Crazy Daisies", "name": "Trivia Nights", "time": "6:00pm-8:00pm", "category": "social" },
+    { "dow": "Thu", "venue": "Skaneateles Library", "name": "Story Time", "category": "egan" },
+    { "dow": "Thu", "venue": "Skaneateles Farmers Market", "name": "Thursday market", "time": "3:00pm-6:00pm", "category": "food" },
+    { "dow": "Fri", "venue": "Moondance", "name": "Fish specials", "category": "food" },
+    { "dow": "Fri", "venue": "Vesper Hills (The Loft)", "name": "Friday fish fry", "category": "food" },
+    { "dow": "Sat", "venue": "Skaneateles Farmers Market", "name": "Saturday market", "time": "9:30am-12:30pm", "category": "food" }
+  ],
+  "dated": [
+    { "date": "2026-06-03", "venue": "Baltimore Woods", "name": "Naturalist's Bumble", "time": "9:00am-10:00am", "cost": "free", "category": "outdoors", "audience": "adult", "note": "Max-solo morning option" },
+
+    { "date": "2026-06-20", "venue": "Skan Brewery", "name": "Limp Lizard BBQ Food Truck", "time": "1:00pm-5:30pm", "category": "food" },
+    { "date": "2026-06-20", "venue": "Baltimore Woods", "name": "Family Field Day: Dive into Pond Life", "time": "1:00pm-4:00pm", "cost": "free-$15", "category": "family", "note": "Designed for ages 5+, Egan is younger" },
+    { "date": "2026-06-20", "venue": "Crazy Daisies", "name": "Baking With Sourdough", "time": "5:30pm-7:30pm", "cost": "$55", "category": "workshop" },
+
+    { "date": "2026-06-21", "venue": "Skan Brewery", "name": "Music with the Bare Melt Duo", "time": "5:00pm-7:00pm", "category": "music" },
+    { "date": "2026-06-21", "venue": "Crazy Daisies", "name": "Trivia Nights", "time": "6:00pm-8:00pm", "category": "social" },
+
+    { "date": "2026-06-22", "venue": "Crazy Daisies", "name": "Tangled Roots (live music)", "time": "6:00pm-8:00pm", "category": "music" },
+
+    { "date": "2026-06-23", "venue": "Empower FCU Amphitheater", "name": "Jelly Roll — The Little Ass Shed Tour (w/ Kashus Culpepper)", "time": "7:00pm", "category": "concert", "highlight": true },
+
+    { "date": "2026-06-24", "venue": "Baltimore Woods", "name": "Naturalist's Bumble", "time": "9:00am-10:00am", "cost": "free", "category": "outdoors", "audience": "adult" },
+    { "date": "2026-06-24", "venue": "Skan Brewery", "name": "Local Crust Wood Fired Pizza Truck", "time": "5:00pm-7:30pm", "category": "food" },
+
+    { "date": "2026-06-25", "venue": "Skan Brewery", "name": "Local Crust Wood Fired Pizza Truck", "time": "5:00pm-7:30pm", "category": "food" },
+    { "date": "2026-06-25", "venue": "Skan Brewery", "name": "Trivia Night", "time": "6:30pm-8:00pm", "category": "social" },
+    { "date": "2026-06-25", "venue": "Crazy Daisies", "name": "Trivia Nights", "time": "6:00pm-8:00pm", "category": "social" },
+
+    { "date": "2026-06-26", "venue": "Empower FCU Amphitheater", "name": "TobyMac (w/ Zach Williams, Seph Schlueter, Jamie MacDonald)", "time": "7:00pm", "category": "concert", "highlight": true },
+    { "date": "2026-06-26", "venue": "Skan Brewery", "name": "Rosalie's Cruisin Cucina Food Truck", "time": "5:00pm-7:30pm", "category": "food" },
+    { "date": "2026-06-26", "venue": "Skaneateles Library", "name": "Mah Jongg Open Play", "time": "1:00pm", "category": "social", "note": "Maybe — flagged uncertain" },
+    { "date": "2026-06-26", "venue": "Crazy Daisies", "name": "Brian Thomas (live music)", "time": "6:00pm-8:00pm", "category": "music" },
+
+    { "date": "2026-06-27", "venue": "Skan Brewery", "name": "Local Crust Pizza Truck", "time": "2:00pm-7:30pm", "category": "food" },
+    { "date": "2026-06-27", "venue": "Crazy Daisies", "name": "Pilates in the Garden", "time": "8:30am-9:30am", "category": "fitness" },
+    { "date": "2026-06-27", "venue": "Crazy Daisies", "name": "Jes Sheldon (live music)", "time": "5:00pm-7:00pm", "category": "music" },
+
+    { "date": "2026-06-28", "venue": "Skan Brewery", "name": "D&G Mac and Cheese Food Truck", "time": "1:00pm-5:30pm", "category": "food" },
+    { "date": "2026-06-28", "venue": "Skan Brewery", "name": "Music with Bob Piorun and Julie Howard", "time": "2:00pm-5:00pm", "category": "music" },
+    { "date": "2026-06-28", "venue": "Crazy Daisies", "name": "Sydney Irving (live music)", "time": "11:00am-2:00pm", "category": "music" },
+
+    { "date": "2026-06-30", "venue": "Skaneateles Library", "name": "Stuffed Animal Adoption", "time": "10:30am", "category": "egan", "highlight": true, "note": "Perfect for Egan" },
+    { "date": "2026-06-30", "venue": "Skaneateles Library", "name": "Writers Group", "time": "1:00pm", "category": "social" },
+    { "date": "2026-06-30", "venue": "Crazy Daisies", "name": "Mosaic Garden Planter Workshop", "time": "5:00pm-8:00pm", "category": "workshop" },
+
+    { "date": "2026-07-01", "venue": "Skaneateles Library", "name": "Baby Bounce & Rhyme", "time": "9:15am", "category": "egan", "highlight": true, "note": "Perfect for Egan — top priority" },
+    { "date": "2026-07-01", "venue": "Skaneateles Library", "name": "Read, Sing, Play Story Time", "time": "10:30am", "category": "egan", "highlight": true, "note": "Perfect for Egan — top priority" },
+
+    { "date": "2026-07-02", "venue": "Skaneateles Library", "name": "Story Time at Austin Park", "time": "10:30am", "category": "egan", "highlight": true, "note": "Outdoor, perfect for Egan" },
+    { "date": "2026-07-02", "venue": "Skan Brewery", "name": "Trivia Night", "time": "6:30pm-8:00pm", "category": "social" },
+    { "date": "2026-07-02", "venue": "Crazy Daisies", "name": "Trivia Nights", "time": "6:00pm-8:00pm", "category": "social" },
+
+    { "date": "2026-07-03", "venue": "Skaneateles Library", "name": "Mah Jongg Open Play", "time": "1:00pm", "category": "social", "note": "Maybe — flagged uncertain" },
+    { "date": "2026-07-03", "venue": "Crazy Daisies", "name": "Austin Jimmy Murphy (live music)", "time": "6:00pm-8:00pm", "category": "music" },
+
+    { "date": "2026-07-04", "venue": "Skaneateles Library", "name": "CLOSED for July 4th", "category": "closure" },
+
+    { "date": "2026-07-05", "venue": "Crazy Daisies", "name": "CLOSED", "category": "closure" }
+  ]
+}

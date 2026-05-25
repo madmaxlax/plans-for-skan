@@ -43,43 +43,38 @@ A must-do day — close, rich history, and Owasco Lake waterfront.
 
 ---
 
-### Ithaca (~45 min south) 🏞️
+### Ithaca day trip (~45 min south) 🏞️
 
-Best day trip for waterfall-and-nature lovers. Combine with gorge hiking (see hikes file).
+Best day trip for waterfall-and-nature lovers. Combine with gorge hiking (see hikes file). Roll multiple stops into one day:
 
-**Robert H. Treman State Park**
-- 105 Enfield Falls Rd, Ithaca, NY 14850
-- Lucifer Falls, swimming hole at Lower Falls, gorge trail
+- **Robert H. Treman State Park** — 105 Enfield Falls Rd. Lucifer Falls, swimming hole at Lower Falls, gorge trail.
+- **Buttermilk Falls State Park** — 112 E Buttermilk Falls Rd. Swimming under the falls (natural pool), gorge trail.
+- **Taughannock Falls State Park** — 2221 Taughannock Rd, Trumansburg (~35 min). Easiest waterfall hike for Egan.
+- **Ithaca Commons** — East State St pedestrian mall: shopping, dining, street performers.
+- **Ithaca Farmers Market** — 545 3rd St (Steamboat Landing). Sat 9am–3pm, Sun 10am–3pm (May–Dec). One of the best in upstate NY — right on the water.
+- **Cascadilla Gorge** — Free in-town walk from downtown to Cornell campus.
+- **Cornell University Campus** — Free to walk; Herbert F. Johnson Museum of Art (free).
 
-**Buttermilk Falls State Park**
-- 112 E Buttermilk Falls Rd, Ithaca, NY 14850
-- Swimming under the falls (natural pool), gorge trail
+> **Strategy:** Drive down for 9am Sat farmers market → Buttermilk Falls swim → lunch on Commons → drive home. Or hit Taughannock in the morning for easy toddler hike, then lunch in Trumansburg/Ithaca.
 
-**Taughannock Falls State Park**
-- 2221 Taughannock Rd, Trumansburg, NY 14886
-- ~35 min from Skaneateles (slightly northwest of Ithaca)
-- Easiest waterfall hike for Egan
+---
 
-**Ithaca Commons** (pedestrian mall)
-- East State St, downtown Ithaca
-- Outdoor shopping + dining + street performers
-- Lots of toddler-friendly energy
+### Marcellus & Around (~15–20 min) 🌿
 
-**Ithaca Farmers Market** ⭐
-- 545 3rd St, Ithaca, NY 14850 (Steamboat Landing)
-- **Saturdays 9am–3pm, Sundays 10am–3pm** (May–Dec)
-- One of the best farmers markets in upstate NY — produce, crafts, live music, food stalls
-- Right on the water, Egan will love it
+**Baltimore Woods Nature Center**
+- 4007 Bishop Hill Rd, Marcellus, NY · ~15 min
+- Trails open year-round; 180+ acres of forest, meadows, and ponds
+- Program calendar runs all summer — most kid programs are 5+ (limited toddler appeal for Egan)
+- Weekly **Naturalist's Bumble** — Wednesdays 9am, free, adults: a perfect Max-solo morning walk
+- Telescope workshops + family field days throughout summer
 
-**Cascadilla Gorge** (free, in-town)
-- Walk the gorge path from downtown to Cornell campus
-- Moderate steps but stunning urban gorge
-
-**Cornell University Campus**
-- Free to walk; beautiful architecture and gardens
-- Herbert F. Johnson Museum of Art (free admission)
-
-> **Ithaca day strategy:** Drive down for 9am Sat farmers market → Buttermilk Falls swim → lunch on Commons → drive home. Or hit Taughannock in the morning for easy toddler hike, then lunch in Trumansburg/Ithaca.
+**Crazy Daisies Greenhouse & Garden Cafe**
+- 4693 Kasson Rd, Syracuse, NY 13215 · ~20 min
+- Family + dog-friendly greenhouse with garden cafe — "a feast for the senses"
+- Frequent live music, trivia nights (Thu + Sun), pilates in the garden, plant workshops
+- Open daily
+- Good toddler stroll for Egan; adults get good food + events
+- https://crazydaisiesflowers.com
 
 ---
 
@@ -151,22 +146,15 @@ Best day trip for waterfall-and-nature lovers. Combine with gorge hiking (see hi
 
 ---
 
-### Cayuga Lake Wine Trail (~30–45 min drive)
+### Cayuga Lake Wine Trail (~30–45 min west)
 
-America's first wine trail — 16 wineries along Cayuga Lake. Easy to hit 2–4 in a half-day.
+America's first wine trail — 16 wineries along Cayuga Lake. Easy to hit 2–4 in a half-day. Top picks for this trip:
 
-**Closest from Skaneateles (east shore, King Ferry area):**
-- **King Ferry Winery / Treleaven Wines** — 658 Lake Rd, King Ferry, NY 13081
-  - Closest Cayuga winery to Skaneateles; excellent whites
-
-**West shore of Cayuga (US-89 north):**
-- **Thirsty Owl Wine Company** — 6799 Elm Beach Rd, Ovid, NY
-  - Beautiful vineyard, excellent whites and reds
-- **Sheldrake Point Winery** — 7448 County Rd 153, Ovid, NY
-  - Stunning views, great rosé and Riesling
-- **Buttonwood Grove Winery** — 5986 NY-89, Romulus, NY
-  - Intimate and family-friendly
-- **Hosmer Winery** — 6999 NY-89, Ovid, NY
+- **King Ferry Winery / Treleaven Wines** — 658 Lake Rd, King Ferry NY 13081. Closest from Skaneateles (east shore); excellent whites.
+- **Thirsty Owl Wine Company** — 6799 Elm Beach Rd, Ovid NY. Beautiful vineyard, excellent whites and reds.
+- **Sheldrake Point Winery** — 7448 County Rd 153, Ovid NY. Stunning views, great rosé and Riesling.
+- **Buttonwood Grove Winery** — 5986 NY-89, Romulus NY. Intimate and family-friendly.
+- **Hosmer Winery** — 6999 NY-89, Ovid NY.
 
 **Full trail map + passport:** [cayugawinetrail.com](https://cayugawinetrail.com)
 
@@ -197,16 +185,6 @@ America's first wine trail — 16 wineries along Cayuga Lake. Easy to hit 2–4 
 **Bach to Bluegrass at Clift Park** (verify 2026)
 - Was held Sunday June 14, 2025 at 2pm — free community event
 - Check Skaneateles community listings for 2026 equivalent
-
-**NYS Blues Festival (Syracuse)** ⭐
-- **June 11–13, 2026** — Admission FREE
-- Downtown Syracuse; great excuse for a Gabbi & Kevin meetup day
-- [cnyarts.org](https://cnyarts.org)
-
-**Taste of Syracuse**
-- **June 5–6, 2026**
-- Clinton Square, Downtown Syracuse
-- Food trucks, restaurants, live music — another good Syracuse day trip
 
 **Ithaca Reggae Fest**
 - **June 26–28, 2026**
@@ -259,7 +237,6 @@ America's first wine trail — 16 wineries along Cayuga Lake. Easy to hit 2–4 
 - [ ] **Mid-Lakes Navigation:** Book lunch and/or dinner cruises ASAP — fill up fast in summer. [midlakesnavigation.com](https://www.midlakesnavigation.com)
 - [ ] **Rosamond Gifford Zoo (Syracuse):** Confirm hours + any summer programming if doing the Syracuse day with Gabbi & Kevin
 - [ ] **Skaneateles Festival:** Check if any KidsFest events have open/free programming. Tickets for July/Aug on sale now at [skanfest.org](https://skanfest.org)
-- [ ] **NY State Blues Festival (June 11–13):** Confirm exact Syracuse venue and parking — great group outing option
 - [ ] **Anyela's Vineyards:** Call ahead for food availability and extended June hours: (315) 685-3797
 - [ ] **Skaneateles June events:** Check [skaneateles.com/calendar](https://www.skaneateles.com/calendar/annual-events) closer to trip for any newly announced events
 - [ ] **Ithaca Farmers Market:** Check current 2026 hours — historically Sat 9am–3pm, Sun 10am–3pm

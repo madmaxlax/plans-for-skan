@@ -89,63 +89,37 @@ const AUBURN_SITES = [
 
 const ITHACA_SITES = [
   {
-    name: "Robert H. Treman State Park",
-    address: "105 Enfield Falls Rd, Ithaca, NY",
-    cost: "$7–$8 vehicle",
-    hours: "Dawn to dusk",
-    details: "Lucifer Falls (12-story waterfall!), swimming hole at Lower Falls, gorge trail. Spectacular.",
+    name: "Ithaca day trip (~45 min south)",
+    address: "Ithaca, NY",
+    cost: "$7–$8/vehicle at state parks",
+    hours: "State parks: dawn to dusk · Farmers market: Sat 9–3, Sun 10–3",
+    details:
+      "Roll multiple stops into one day: Robert H. Treman State Park (Lucifer Falls + swimming hole) · Buttermilk Falls (natural swimming pool under falls) · Taughannock Falls (215-ft falls, stroller-friendly overlook trail — easy Egan hike) · Ithaca Farmers Market at Steamboat Landing on Cayuga Lake · Ithaca Commons pedestrian mall · Cascadilla Gorge walk to Cornell campus · Ithaca Children's Garden at Cass Park (free, designed entirely for kids).",
     stars: 1,
     accent: "green" as const,
   },
+];
+
+// ─── Marcellus & Around (~15–20 min) ──────────────────────────────────────────
+
+const MARCELLUS_SITES = [
   {
-    name: "Taughannock Falls State Park",
-    address: "2221 Taughannock Rd, Trumansburg, NY (~35 min)",
-    cost: "$7–$8 vehicle",
-    hours: "Dawn to dusk",
-    details: "215-foot falls — tallest east of the Rockies. The main overlook trail is flat and stroller-friendly (1 mile round-trip). Easiest waterfall hike for Egan.",
-    stars: 1,
-    accent: "green" as const,
-  },
-  {
-    name: "Buttermilk Falls State Park",
-    address: "112 E Buttermilk Falls Rd, Ithaca, NY",
-    cost: "$7–$8 vehicle",
-    hours: "Dawn to dusk",
-    details: "Natural swimming pool under the falls (cold but gorgeous). Gorge trail. Popular in summer — arrive early.",
+    name: "Baltimore Woods Nature Center",
+    address: "4007 Bishop Hill Rd, Marcellus, NY · ~15 min",
+    cost: "Trails free",
+    hours: "Trails open year-round",
+    details:
+      "180+ acres of forest, meadows, and ponds. Program calendar runs all summer — most kid programs are 5+ (limited toddler appeal for Egan). Weekly Naturalist's Bumble: Wednesdays 9am, free, adults — perfect Max-solo morning walk. Telescope workshops + family field days throughout summer.",
     accent: "none" as const,
   },
   {
-    name: "Ithaca Farmers Market",
-    address: "545 3rd St, Ithaca, NY (Steamboat Landing)",
-    cost: "Free admission",
-    hours: "Sat 9am–3pm · Sun 10am–3pm (May–Dec)",
-    details: "One of the best farmers markets in upstate NY. Produce, crafts, live music, food stalls. Right on Cayuga Lake — Egan will love it.",
-    stars: 1,
-    accent: "yellow" as const,
-  },
-  {
-    name: "Ithaca Commons",
-    address: "East State St, downtown Ithaca",
-    cost: "Free",
-    hours: "Shops/restaurants open daily",
-    details: "Outdoor pedestrian mall with dining, boutiques, and street performers. Great energy for families.",
-    accent: "none" as const,
-  },
-  {
-    name: "Ithaca Children's Garden — Cass Park",
-    address: "Cass Park, Ithaca, NY",
-    website: "ithacachildrensgarden.org",
-    cost: "Free",
+    name: "Crazy Daisies Greenhouse & Garden Cafe",
+    address: "4693 Kasson Rd, Syracuse, NY 13215 · ~20 min",
+    website: "crazydaisiesflowers.com",
+    cost: "Free to visit · cafe $",
     hours: "Open daily",
-    details: "Award-winning 3-acre public garden designed entirely for kids. Botanical play features, climbing, digging areas. Worth the drive for Egan.",
-    accent: "none" as const,
-  },
-  {
-    name: "Cascadilla Gorge",
-    address: "Downtown Ithaca",
-    cost: "Free",
-    hours: "Open daily",
-    details: "Walk the gorge path from downtown to Cornell campus. Moderate steps but stunning urban gorge.",
+    details:
+      "Family + dog-friendly greenhouse with garden cafe — 'a feast for the senses.' Frequent live music, trivia nights (Thu + Sun), pilates in the garden, plant workshops. Good toddler stroll for Egan; adults get food + events.",
     accent: "none" as const,
   },
 ];
@@ -237,24 +211,11 @@ const WINERIES = [
     accent: "yellow" as const,
   },
   {
-    name: "King Ferry Winery / Treleaven Wines",
-    address: "658 Lake Rd, King Ferry, NY",
-    hours: "Check website",
-    details: "Closest Cayuga Lake winery to Skaneateles (east shore). Excellent whites.",
-    accent: "none" as const,
-  },
-  {
-    name: "Thirsty Owl Wine Company",
-    address: "6799 Elm Beach Rd, Ovid, NY (west shore Cayuga)",
-    hours: "Check website",
-    details: "Beautiful vineyard, excellent whites and reds. One of the best on the Cayuga Wine Trail.",
-    accent: "none" as const,
-  },
-  {
-    name: "Sheldrake Point Winery",
-    address: "7448 County Rd 153, Ovid, NY",
-    hours: "Check website",
-    details: "Stunning lake views, great rosé and Riesling. Very popular.",
+    name: "Cayuga Lake Wine Trail (~30–45 min west)",
+    address: "16 wineries along Cayuga Lake · cayugawinetrail.com",
+    hours: "Check each winery's website",
+    details:
+      "America's first wine trail — easy to hit 2–4 in a half-day. Top picks: King Ferry Winery / Treleaven (658 Lake Rd, King Ferry — closest, east shore) · Thirsty Owl (6799 Elm Beach Rd, Ovid — west shore) · Sheldrake Point (7448 County Rd 153, Ovid — stunning views, great rosé/Riesling) · Buttonwood Grove (5986 NY-89, Romulus — intimate and family-friendly) · Hosmer (6999 NY-89, Ovid).",
     accent: "none" as const,
   },
   {
@@ -268,39 +229,24 @@ const WINERIES = [
 
 // ─── June Events ──────────────────────────────────────────────────────────────
 
-const JUNE_EVENTS = [
-  {
-    name: "Taste of Syracuse",
-    date: "June 5–6, 2026",
-    location: "Clinton Square, Downtown Syracuse",
-    details: "Food trucks, restaurants, live music. Good group day trip.",
-    cost: "Free",
-    accent: "blue" as const,
-  },
-  {
-    name: "NYS Blues Festival",
-    date: "June 11–13, 2026",
-    location: "Downtown Syracuse",
-    details: "Admission FREE. Great excuse for a Gabbi & Kevin meetup day.",
-    cost: "FREE",
-    accent: "yellow" as const,
-    stars: 1,
-  },
-  {
-    name: "Finger Lakes Triathlon",
-    date: "June 21, 2026",
-    location: "Taughannock Falls State Park, Trumansburg",
-    details: "Sprint or Olympic distance. Swim in Cayuga Lake. ~$139–149 entry. runsignup.com",
-    cost: "$139–149",
-    accent: "none" as const,
-  },
+interface JuneEvent {
+  name: string;
+  date: string;
+  location: string;
+  details: string;
+  cost: string;
+  accent: "yellow" | "blue" | "green" | "none";
+  stars?: number;
+}
+
+const JUNE_EVENTS: JuneEvent[] = [
   {
     name: "Ithaca Reggae Fest",
     date: "June 26–28, 2026",
     location: "Ithaca, NY",
     details: "Check eventbrite.com for tickets and venue.",
     cost: "Ticketed",
-    accent: "none" as const,
+    accent: "none",
   },
   {
     name: "Skaneateles Farmers Market",
@@ -308,7 +254,7 @@ const JUNE_EVENTS = [
     location: "Austin Park Pavilion, 1 E Austin St, Skaneateles",
     details: "Thursday 3–6pm · Saturday 9:30am–12:30pm. Local produce, crafts, food.",
     cost: "Free",
-    accent: "green" as const,
+    accent: "green",
   },
 ];
 
@@ -399,6 +345,14 @@ export default function DayTripsPage() {
         <SectionHeader icon={Camera} title="Auburn" subtitle="~15 min west on US-20 · history + waterfront" />
         <div className="space-y-3">
           {AUBURN_SITES.map((s) => <SiteCard key={s.name} {...s} />)}
+        </div>
+      </section>
+
+      {/* Marcellus & Around */}
+      <section>
+        <SectionHeader icon={Camera} title="Marcellus & Around" subtitle="~15–20 min · nature center + garden cafe" />
+        <div className="space-y-3">
+          {MARCELLUS_SITES.map((s) => <SiteCard key={s.name} {...s} />)}
         </div>
       </section>
 

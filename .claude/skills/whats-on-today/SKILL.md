@@ -25,9 +25,20 @@ Run the briefing script from anywhere — it resolves paths relative to its own 
 bun run /Users/struevermax/dev/plans-for-skan/.claude/skills/whats-on-today/scripts/briefing.js
 ```
 
-Output is JSON: `{ now, today: {hourly forecast, summary}, lake, log: {done, skip, want} }`.
+Output is JSON: `{ weather, lake, events: {today, recurring, inTripWindow, dayOfWeek}, log }`.
 
 If the network is flaky, the script returns whatever it could fetch + falls back to historical averages — don't retry, just note the gap in the briefing.
+
+### Reading the `events` block
+
+The briefing pulls from `data/events-calendar.json` and returns:
+
+- **`events.today`** — date-specific events on today's date (from research). These are the **highest priority** for the briefing. Anything with `highlight: true` is something the user specifically flagged as a top pick — lead with these.
+- **`events.recurring`** — weekly recurring anchors on this day-of-week (e.g., Thursday → Skan Brewery trivia 6:30pm). Surface as "on every [DOW]" so the user can plan around them.
+- **`events.inTripWindow`** — `true` if today falls inside one of the user's defined trip windows (Jun 1–3 + Jun 19–Jul 5, 2026). If `null`/`false`, the user is asking about a non-trip day — answer accordingly but don't suggest activities as if they're traveling.
+- **`events.dayOfWeek`** — three-letter day code (Mon/Tue/etc).
+
+If `events.today` has any entries, those **outrank weather-driven suggestions** — the user planned around them. Weather still informs how you frame them (e.g., "outdoor concert tonight, but bring a rain jacket — 60% precip chance at showtime").
 
 ## Step 2: Pick the weather lane
 
@@ -74,6 +85,9 @@ Use this structure. Keep it scannable — the user reads this on their phone.
 
 ### Suggestion rules
 
+- **Date-specific events from `events.today` come first** — these are pre-planned anchors. Don't bury them under generic suggestions.
+- **Then recurring weekly anchors** (`events.recurring`) — if it's a Thursday and Skan Brewery trivia is on, mention it even if not the headliner.
+- **Then weather-driven activity suggestions** from the relevant guide markdown (see Step 2).
 - **Don't re-suggest things already logged as `done` or `skip`** — the briefing script already filters them out of the activity pool. If the user asks for a repeat, that's fine, but don't proactively bring them up.
 - **Prioritize `want` entries** when conditions fit — these are things the user has flagged interest in.
 - **Match toddler suggestions to Egan's energy windows**. Mornings and late afternoon are best; midday is often nap. If you can tell from the time, factor that in.
@@ -164,6 +178,7 @@ The script writes to both `data/activity-log.json` (structured state, source of 
 │   ├── log.js            ← add/list/remove activity entries
 │   └── render-html.js    ← optional HTML dashboard
 └── data/
-    ├── activity-log.json ← structured state
-    └── activity-log.md   ← narrative log
+    ├── activity-log.json    ← structured state (done/skip/want)
+    ├── activity-log.md      ← narrative log
+    └── events-calendar.json ← date-specific + weekly recurring events in the trip window
 ```

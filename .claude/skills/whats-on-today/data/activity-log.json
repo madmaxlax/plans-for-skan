@@ -1,4 +1,12 @@
 {
-  "entries": [],
-  "nextId": 1
+  "entries": [
+    {
+      "id": 1,
+      "status": "want",
+      "name": "Find a fishing buddy / become more of a fisher",
+      "note": "From the Jun 2026 catalog review — aspiration, not a specific activity",
+      "loggedAt": "2026-05-25T20:16:12.157Z"
+    }
+  ],
+  "nextId": 2
 }

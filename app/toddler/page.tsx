@@ -166,6 +166,16 @@ const NATURE: ActivityCardProps[] = [
     stars: 0,
     accent: "none",
   },
+  {
+    name: "Crazy Daisies Greenhouse & Garden Cafe",
+    address: "4693 Kasson Rd, Syracuse, NY (~20 min)",
+    website: "crazydaisiesflowers.com",
+    cost: "Free to visit",
+    hours: "Open daily",
+    highlights: "Family + dog-friendly garden cafe + greenhouse. Great for a toddler stroll through the gardens; adults get good food + frequent events (trivia Thu+Sun, live music, plant workshops, pilates in the garden).",
+    stars: 0,
+    accent: "none",
+  },
 ];
 
 const PLAYGROUNDS = [

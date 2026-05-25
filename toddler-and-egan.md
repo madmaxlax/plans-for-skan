@@ -79,9 +79,11 @@
 - **Hours:** Daily 10am–5pm
 - **What to know:** 40+ live animal ambassadors (including resident wildlife). Easy walking trails. Great for a nature walk with a toddler. Also available for birthday party rentals (see birthday section).
 
-### Abbott Farms (Baldwinsville, ~25 min)
-- **Address:** 3275 Cold Springs Rd, Baldwinsville, NY 13027
-- **Note:** ⚠️ **Fall-season focused** — petting zoo, wagon rides, apple picking, corn maze are mainly Sept–Oct. In June, the farm store and u-pick may be open but the full activity lineup is not. Call ahead: (315) 638-7783.
+### Crazy Daisies Greenhouse & Garden Cafe (Syracuse, ~20 min)
+- **Address:** 4693 Kasson Rd, Syracuse, NY 13215
+- **Website:** https://crazydaisiesflowers.com
+- **Hours:** Open daily
+- **What to know:** Family + dog-friendly garden cafe + greenhouse. Great for a toddler stroll through the gardens; adults get good food + frequent events (trivia Thu+Sun, live music, plant workshops, pilates in the garden). "A feast for the senses."
 
 ---
 
@@ -196,11 +198,6 @@ Right in town — walk or short drive. Programs resume with regular schedules (c
 - **Website:** skaneateles-bakery.squarespace.com
 - **Hours:** Daily 7am–3pm
 - **What to know:** Scratch-made American baked goods. Can create custom dessert bars — donuts, cupcakes, macarons, Vienna swirl cookies, French macarons. Great for a smash cake or dessert spread.
-
-#### The Cake Shop CNY (Skaneateles, by appt.)
-- **Address:** 8 Griffin St, Skaneateles, NY
-- **Instagram:** @thecakeshop_cny
-- **What to know:** Boutique custom cake studio (Culinary Institute of America grad). Stunning, elaborate custom cakes. ⚠️ Instagram currently says "not taking new orders" — reach out to check availability. Appointment only.
 
 #### Cameron's Bakery (Auburn, ~15 min)
 - **Address:** 169 Grant Ave, Auburn, NY (also 167 Grant Ave)

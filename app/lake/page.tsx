@@ -94,11 +94,6 @@ export default function LakePage() {
               <p className="text-xs text-orange-700">Book 4–6 weeks in advance for June weekends — high demand.</p>
             </div>
           </Card>
-          <Card>
-            <h3 className="font-bold text-slate-800 mb-1">Boatsetter (Peer-to-Peer)</h3>
-            <p className="text-xs text-slate-500 mb-1.5">boatsetter.com — search &quot;Skaneateles, NY&quot;</p>
-            <p className="text-sm text-slate-700">Private boat rentals from ~$30/hr. Various vessel types: fishing boats, pontoons, bowriders.</p>
-          </Card>
         </div>
       </section>
 
@@ -148,11 +143,6 @@ export default function LakePage() {
             <p className="text-xs text-slate-500 mb-2">Capt. Buck · (315) 481-2320 · luckybuckfishing.com</p>
             <p className="text-sm text-slate-700 mb-2">2022 Veranda luxury fishing tritoon — 8×22 ft fishing area, Yamaha 250hp. Multi-species: walleye, bass, lake trout, tiger musky, perch. 6-hour trips starting at ~$600/group. All ages welcome — good option with Egan.</p>
             <Badge label="5.0 ★ TripAdvisor" variant="star" />
-          </Card>
-          <Card>
-            <h3 className="font-bold text-slate-800 mb-1">Upstate Guide Service</h3>
-            <p className="text-xs text-slate-500 mb-1.5">upstateguideservice.com</p>
-            <p className="text-sm text-slate-700">Fly fishing focus on Skaneateles Lake.</p>
           </Card>
         </div>
 

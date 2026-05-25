@@ -142,6 +142,18 @@ const MID_RANGE = [
     stars: 0,
     accent: "none" as const,
   },
+  {
+    name: "The Loft at Vesper Hills",
+    address: "4291 Octagon Rd, Tully, NY · ~25 min south",
+    phone: "(315) 696-8328",
+    price: "$$-$$$",
+    cuisine: "Casual fine dining (American)",
+    meals: "Lunch, Dinner",
+    highlights: "Casual fine dining with Otisco Lake views. Friday fish fry is the standout. 'The Parlor' speakeasy-style bar in the basement. Pairs perfectly with a round at Vesper Hills Golf next door.",
+    toddlerNotes: "Kid-friendly atmosphere.",
+    stars: 0,
+    accent: "none" as const,
+  },
 ];
 
 const CASUAL = [
@@ -187,6 +199,17 @@ const CASUAL = [
     cuisine: "Pub food + craft beer",
     highlights: "Warm taproom in a stunning historic mill. Dog-friendly and family-friendly. Rotating craft taps, live music nights, trivia.",
     toddlerNotes: "Great casual group spot — indoor and outdoor seating, laid-back vibe.",
+    stars: 0,
+    accent: "none" as const,
+  },
+  {
+    name: "Moondance",
+    address: "2512 Cherry Valley Tpke, Marcellus, NY",
+    phone: "(315) 673-1135",
+    price: "$-$$",
+    cuisine: "Bar food / Casual American",
+    highlights: "Casual dive-bar vibe, horseshoe pits outside, occasional live music. Weekly specials: Tue wing night ($0.70/wing), Wed taco night, Thu pasta night, Fri fish specials.",
+    toddlerNotes: "Casual, no fuss — fine for early dinner with Egan.",
     stars: 0,
     accent: "none" as const,
   },

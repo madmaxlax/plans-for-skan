@@ -44,6 +44,15 @@
 
 ---
 
+### Baltimore Woods Nature Center
+- **Distance:** Trail network through 180+ acres
+- **Difficulty:** Easy–Moderate
+- **Highlights:** Forest, meadows, and ponds. Trails open year-round; programs available (most age 5+). Good place for a stroller-friendly walk with the toddler. Weekly free **Naturalist's Bumble** for adults Wed 9am.
+- **Toddler verdict:** Easy-to-moderate trails work for stroller hikes; nature center building has program calendar for older kids.
+- **Address:** 4007 Bishop Hill Rd, Marcellus, NY · ~15 min from Skaneateles
+
+---
+
 ### Hinchcliff Family / High Vista / Ripley Hill Preserves
 - **Distance:** ~2+ miles combined
 - **Difficulty:** Easy–Moderate

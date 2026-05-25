@@ -81,6 +81,17 @@
 
 ---
 
+### The Loft at Vesper Hills
+- **Address:** 4291 Octagon Rd, Tully, NY · ~25 min south
+- **Phone:** (315) 696-8328
+- **Cuisine:** Casual fine dining (American)
+- **Price:** $$–$$$
+- **Meals:** Lunch, Dinner
+- **Highlights:** Casual fine dining with Otisco Lake views. **Friday fish fry is the standout.** "The Parlor" speakeasy-style bar in the basement. Pairs perfectly with a round at Vesper Hills Golf next door.
+- **Toddler notes:** Kid-friendly atmosphere.
+
+---
+
 ## Casual & Kid-Friendly 🐣
 
 ### Doug's Fish Fry ⭐⭐⭐ (The Classic Skaneateles Institution)
@@ -119,6 +130,16 @@
 - **Price:** $$
 - **Highlights:** Warm taproom in a stunning historic mill. Family-friendly AND dog-friendly. Rotating craft taps, live music nights, trivia. Good casual food menu.
 - **Toddler notes:** Great casual group spot — indoor and outdoor seating, laid-back vibe
+
+---
+
+### Moondance
+- **Address:** 2512 Cherry Valley Tpke, Marcellus, NY
+- **Phone:** (315) 673-1135
+- **Cuisine:** Bar food / Casual American
+- **Price:** $–$$
+- **Highlights:** Casual dive-bar vibe, horseshoe pits outside, occasional live music. Weekly specials: **Tue wing night ($0.70/wing), Wed taco night, Thu pasta night, Fri fish specials.**
+- **Toddler notes:** Casual, no fuss — fine for early dinner with Egan.
 
 ---
 

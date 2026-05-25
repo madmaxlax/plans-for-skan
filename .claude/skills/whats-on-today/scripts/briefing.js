@@ -8,6 +8,9 @@ import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const LOG_JSON = join(HERE, "..", "data", "activity-log.json");
+const EVENTS_JSON = join(HERE, "..", "data", "events-calendar.json");
+
+const DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 // Skaneateles, NY — matches the WeatherWidget in the main app
 const LAT = 42.9474;
@@ -112,6 +115,26 @@ async function fetchLake() {
   }
 }
 
+function readEvents(todayIso) {
+  if (!existsSync(EVENTS_JSON)) return { today: [], recurring: [], inTripWindow: null };
+  try {
+    const data = JSON.parse(readFileSync(EVENTS_JSON, "utf8"));
+    const today = (data.dated || []).filter((e) => e.date === todayIso);
+    const todayDow = DOW[new Date(todayIso + "T12:00:00").getDay()];
+    const recurring = (data.recurring_weekly || []).filter((e) => e.dow === todayDow);
+
+    // Is today inside one of the user's trip windows?
+    const inTripWindow =
+      (data.trip_windows || []).some(
+        (w) => todayIso >= w.start && todayIso <= w.end
+      ) || null;
+
+    return { today, recurring, inTripWindow, dow: todayDow };
+  } catch {
+    return { today: [], recurring: [], inTripWindow: null };
+  }
+}
+
 function readLog() {
   if (!existsSync(LOG_JSON)) {
     return { done: [], skip: [], want: [] };
@@ -145,15 +168,27 @@ function sparkline(values) {
 const [weather, lake] = await Promise.all([fetchWeather(), fetchLake()]);
 const log = readLog();
 
+// Local date in America/New_York (Skaneateles tz) so "today" matches the user's day.
+const todayIso = new Date()
+  .toLocaleDateString("en-CA", { timeZone: "America/New_York" }); // YYYY-MM-DD
+const events = readEvents(todayIso);
+
 const tempSpark = weather.ok ? sparkline(weather.hourly.map((h) => h.temp)) : null;
 const precipSpark = weather.ok ? sparkline(weather.hourly.map((h) => h.precipChance)) : null;
 
 const briefing = {
   generatedAt: new Date().toISOString(),
+  todayLocal: todayIso,
   location: { name: "Skaneateles, NY (1557 Red Tail Ln)", lat: LAT, lon: LON },
   weather,
   lake,
   sparklines: weather.ok ? { temp: tempSpark, precip: precipSpark } : null,
+  events: {
+    inTripWindow: events.inTripWindow,
+    dayOfWeek: events.dow,
+    today: events.today, // date-specific events for today (highest priority)
+    recurring: events.recurring, // weekly recurring on this dow
+  },
   log: {
     counts: { done: log.done.length, skip: log.skip.length, want: log.want.length },
     done: log.done.map((e) => e.name),
