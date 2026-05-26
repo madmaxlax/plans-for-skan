@@ -1,0 +1,25 @@
+{
+  "_doc": "Per-date editorial deck shown on the home page. Each date keys to morning/afternoon/evening cards. Days without an entry fall back to the generic 'browse the guide' deck. Edit freely — both the Next.js site and the whats-on-today skill can read this.",
+  "decks": {
+    "2026-06-01": {
+      "morning":   { "time": "morning",  "title": "Settle in, walk the dock",      "body": "Coffee on the porch, unpack, walk Egan down to see the lake. Easy first day.",                            "meta": "Home · 0.0mi",       "status": "ready",     "icon": "sun",       "accent": "coral" },
+      "afternoon": { "time": "12:30pm",  "title": "Doug's Fish Fry",               "body": "The mandatory first-day pilgrimage. Drive-thru, picnic at Clift Park if weather cooperates.",                "meta": "Sauquoit · 8mi · ~$25", "status": "ready",    "icon": "utensils", "accent": "lake" },
+      "evening":   { "time": "6:30pm",   "title": "Porch dinner + early bed",      "body": "Light grill, watch the sun drop, get Egan down by 7. Long week ahead.",                                       "meta": "Home · groceries",  "status": "plan ahead","icon": "flame",     "accent": "forest" }
+    },
+    "2026-06-19": {
+      "morning":   { "time": "8:00am",   "title": "Glass-water paddle",            "body": "Wind picks up around 10. Coffee in the thermos, Egan in the cockpit, hug the west shore for shade.",       "meta": "Dock · 0.0mi · free",   "status": "best now", "icon": "waves",    "accent": "coral" },
+      "afternoon": { "time": "12:30pm",  "title": "Skan Brewery food trucks",       "body": "Limp Lizard BBQ from 1pm. Big lawn, easy with Egan, lake breeze.",                                            "meta": "Skan Brewery · 2mi",    "status": "ready",    "icon": "utensils", "accent": "lake" },
+      "evening":   { "time": "6:30pm",   "title": "BBQ + sunset on the dock",      "body": "Coals at 6. Sun behind the west hills around 8:43. Fireflies after dusk.",                                   "meta": "Home · 0.0mi · groceries", "status": "plan ahead", "icon": "flame", "accent": "forest" }
+    },
+    "2026-06-23": {
+      "morning":   { "time": "morning",  "title": "Carpenter Falls — early",       "body": "Arrive by 8am for parking. Toddler-doable upper view, save the climb for later.",                               "meta": "20mi · free",            "status": "best now", "icon": "mountain", "accent": "forest" },
+      "afternoon": { "time": "afternoon","title": "Lake swim, long nap",           "body": "Quiet afternoon. Big nap for Egan. Save energy.",                                                              "meta": "Home",                   "status": "ready",    "icon": "waves",    "accent": "lake" },
+      "evening":   { "time": "7:00pm",   "title": "Jelly Roll @ Empower FCU",      "body": "Highlighted concert — leave by 5:30, grab dinner near venue.",                                                "meta": "Syracuse · 30mi",        "status": "plan ahead", "icon": "ship", "accent": "coral" }
+    }
+  },
+  "fallback": {
+    "morning":   { "time": "morning",   "title": "Slow start, lake walk",     "body": "Coffee on the porch. Walk down to the dock. See what the day wants to be.", "meta": "Home · 0.0mi · free",    "status": "ready",     "icon": "sun",       "accent": "coral" },
+    "afternoon": { "time": "afternoon", "title": "Pick a chapter",            "body": "Browse the guide below — food, lake, hikes, day trips, or something for Egan.", "meta": "Open · all options",    "status": "ready",     "icon": "utensils", "accent": "lake" },
+    "evening":   { "time": "evening",   "title": "Dinner + sunset",           "body": "Grill at the house or head into town. Sunset around 8:40 from the dock.",         "meta": "Home or town",          "status": "plan ahead","icon": "flame",     "accent": "forest" }
+  }
+}

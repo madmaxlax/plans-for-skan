@@ -1,7 +1,7 @@
 import { UtensilsCrossed, Phone, Globe, MapPin, Star, AlertCircle, Sun, IceCream, CheckSquare } from "lucide-react";
-import Card from "../components/Card";
-import SectionHeader from "../components/SectionHeader";
-import { Badge, PriceBadge, StarBadge } from "../components/Badges";
+import Card from "@/app/components/Card";
+import SectionHeader from "@/app/components/SectionHeader";
+import { Badge, PriceBadge, StarBadge } from "@/app/components/Badges";
 
 interface RestaurantProps {
   name: string;

@@ -12,9 +12,9 @@ import {
   Sailboat,
   Ship,
 } from "lucide-react";
-import Card from "../components/Card";
-import SectionHeader from "../components/SectionHeader";
-import { Badge, StarBadge } from "../components/Badges";
+import Card from "@/app/components/Card";
+import SectionHeader from "@/app/components/SectionHeader";
+import { Badge, StarBadge } from "@/app/components/Badges";
 
 export default function LakePage() {
   return (

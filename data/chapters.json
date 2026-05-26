@@ -1,0 +1,12 @@
+{
+  "_doc": "Chapter tiles on the home page. Order here = render order. Each chapter maps to a page route and a category in the activity catalog.",
+  "chapters": [
+    { "num": "I",   "title": "Food",      "sub": "fish frys, pizza, porch",  "href": "/food",      "icon": "utensils",   "accent": "coral" },
+    { "num": "II",  "title": "Lake",      "sub": "swim, paddle, fish",       "href": "/lake",      "icon": "waves",      "accent": "lake" },
+    { "num": "III", "title": "Hikes",     "sub": "trails, falls, woods",     "href": "/outdoors",  "icon": "mountain",   "accent": "forest" },
+    { "num": "IV",  "title": "Egan",      "sub": "splash pads, parks",       "href": "/toddler",   "icon": "baby",       "accent": "tan" },
+    { "num": "V",   "title": "Rainy",     "sub": "indoor escapes",           "href": "/rainy-day", "icon": "cloud-rain", "accent": "slate" },
+    { "num": "VI",  "title": "Day Trips", "sub": "Watkins, Ithaca, NYC",     "href": "/day-trips", "icon": "map-pin",    "accent": "rust" },
+    { "num": "VII", "title": "Sports",    "sub": "golf, pickleball, tennis", "href": "/sports",    "icon": "dumbbell",   "accent": "lake" }
+  ]
+}

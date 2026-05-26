@@ -1,0 +1,11 @@
+{
+  "title": "Skaneateles",
+  "subtitle": "a guidebook for june 2026",
+  "address": "1557 Red Tail Ln · Skaneateles, NY",
+  "lat": 42.9474,
+  "lon": -76.4298,
+  "windows": [
+    { "label": "Window 1", "start": "2026-06-01", "end": "2026-06-03" },
+    { "label": "Window 2", "start": "2026-06-19", "end": "2026-07-05" }
+  ]
+}
