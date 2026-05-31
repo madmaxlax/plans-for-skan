@@ -48,6 +48,12 @@ git push
 ```
 Don't leave work uncommitted. If in doubt, commit and push.
 
+**Why this matters:**
+- **Vercel auto-deploys on push to `main`** → live site: https://plans-for-skan.vercel.app/ (project: https://vercel.com/max-struever-bcg-projects/plans-for-skan). Any merge/push to `main` triggers a production deploy.
+- **Solo dev across multiple machines** → Max is the only developer but works from multiple machines. Uncommitted local work blocks remote sessions. Always push so the next machine has the latest state.
+
+This applies to `/keep-agents-updated` and any other doc/context updates too — commit and push the AGENTS.md changes, don't leave them sitting locally.
+
 ### Content edits
 When updating a page's facts (hours, phone numbers, prices), update **both** the source `*.md` at the repo root **and** the matching `app/<route>/page.tsx`. The markdown is the research record; the page is what gets rendered.
 
