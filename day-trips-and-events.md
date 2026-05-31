@@ -76,6 +76,16 @@ Best day trip for waterfall-and-nature lovers. Combine with gorge hiking (see hi
 - Good toddler stroll for Egan; adults get good food + events
 - https://crazydaisiesflowers.com
 
+**Prison City Brewing — The Farm (North Road)** ⭐
+- 251 North Street, Auburn, NY · ~20 min
+- The farm/taproom location of Prison City Brewing (different from their downtown Auburn pub at 28 State St)
+- Outdoor farm setting — great summer evening vibe, dog and family friendly
+- **Live music Fridays 6–9pm** (Summer Music at the Farm series, May–September 2026)
+- **Live music Sundays 2–5pm** (Sunday afternoon sessions, same series)
+- **Trivia Thursdays 6:30pm**
+- Craft beer + outdoor hang — a go-to for summer evenings when you want something livelier than the village but don't want a full dinner out
+- [prisoncitybrewing.com](https://prisoncitybrewing.com)
+
 ---
 
 ### Syracuse (~25–30 min north — with Gabbi & Kevin) 🏙️

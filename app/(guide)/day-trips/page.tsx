@@ -122,6 +122,16 @@ const MARCELLUS_SITES = [
       "Family + dog-friendly greenhouse with garden cafe — 'a feast for the senses.' Frequent live music, trivia nights (Thu + Sun), pilates in the garden, plant workshops. Good toddler stroll for Egan; adults get food + events.",
     accent: "none" as const,
   },
+  {
+    name: "Prison City Brewing — The Farm",
+    address: "251 North Street, Auburn, NY · ~20 min",
+    website: "prisoncitybrewing.com",
+    cost: "Free to visit · drinks $",
+    hours: "Live music Fri 6–9pm · Sun 2–5pm · Trivia Thu 6:30pm",
+    details:
+      "Farm taproom location of Prison City Brewing (different from their downtown Auburn pub). Outdoor farm setting with craft beer and a great summer evening vibe. Summer Music at the Farm series runs May–Sept 2026 — Fridays 6–9pm and Sundays 2–5pm. Trivia on Thursdays at 6:30pm.",
+    accent: "none" as const,
+  },
 ];
 
 // ─── Syracuse (~30 min) ───────────────────────────────────────────────────────

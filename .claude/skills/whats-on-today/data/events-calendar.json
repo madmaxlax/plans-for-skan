@@ -13,9 +13,12 @@
     { "dow": "Thu", "venue": "Crazy Daisies", "name": "Trivia Nights", "time": "6:00pm-8:00pm", "category": "social" },
     { "dow": "Thu", "venue": "Skaneateles Library", "name": "Story Time", "category": "egan" },
     { "dow": "Thu", "venue": "Skaneateles Farmers Market", "name": "Thursday market", "time": "3:00pm-6:00pm", "category": "food" },
+    { "dow": "Thu", "venue": "Prison City Brewing (Farm)", "name": "Trivia Night", "time": "6:30pm", "category": "social", "note": "Farm location — 251 North Street, Auburn" },
     { "dow": "Fri", "venue": "Moondance", "name": "Fish specials", "category": "food" },
     { "dow": "Fri", "venue": "Vesper Hills (The Loft)", "name": "Friday fish fry", "category": "food" },
-    { "dow": "Sat", "venue": "Skaneateles Farmers Market", "name": "Saturday market", "time": "9:30am-12:30pm", "category": "food" }
+    { "dow": "Fri", "venue": "Prison City Brewing (Farm)", "name": "Summer Music at the Farm (live music)", "time": "6:00pm-9:00pm", "category": "music", "note": "Farm location — 251 North Street, Auburn. May–Sept 2026." },
+    { "dow": "Sat", "venue": "Skaneateles Farmers Market", "name": "Saturday market", "time": "9:30am-12:30pm", "category": "food" },
+    { "dow": "Sun", "venue": "Prison City Brewing (Farm)", "name": "Summer Music at the Farm (live music)", "time": "2:00pm-5:00pm", "category": "music", "note": "Farm location — 251 North Street, Auburn. May–Sept 2026." }
   ],
   "dated": [
     { "date": "2026-06-03", "venue": "Baltimore Woods", "name": "Naturalist's Bumble", "time": "9:00am-10:00am", "cost": "free", "category": "outdoors", "audience": "adult", "note": "Max-solo morning option" },
