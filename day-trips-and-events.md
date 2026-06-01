@@ -216,15 +216,7 @@ America's first wine trail — 16 wineries along Cayuga Lake. Easy to hit 2–4 
 - W Genesee St at the lakefront
 - Gazebo, pier, benches, garden fountain
 - Swimming area (opens late June, daily lifeguards 11am–7pm)
-- Mid-Lakes Navigation boat tour dock
 - No dogs allowed in park
-
-**Mid-Lakes Navigation Cruises** (depart Clift Park)
-- Sightseeing: $27 adults / $17 kids; 50 min; 7 days/week; dogs welcome on leash
-- Lunch cruise: $56 adults / $34 kids; Tue/Wed/Fri 11am; starts June 1
-- Dinner cruise: Fri/Sat 6pm, Sun 5pm; starts June 1
-- U.S. Mail Boat: starts July 1 (Tuesdays) — unique experience, delivers mail to lake camps
-- [midlakesnavigation.com](https://www.midlakesnavigation.com)
 
 **Village Shopping & Strolling**
 - Jordan St & W Genesee St: boutiques, galleries, antiques, home goods
@@ -244,7 +236,6 @@ America's first wine trail — 16 wineries along Cayuga Lake. Easy to hit 2–4 
 ## Manual Follow-Ups
 
 - [ ] **Harriet Tubman NHP 2026 hours:** Website shows Fri–Sat only. Call (315) 255-1553 to confirm if expanded summer hours are available for June: [nps.gov/hart](https://nps.gov/hart)
-- [ ] **Mid-Lakes Navigation:** Book lunch and/or dinner cruises ASAP — fill up fast in summer. [midlakesnavigation.com](https://www.midlakesnavigation.com)
 - [ ] **Rosamond Gifford Zoo (Syracuse):** Confirm hours + any summer programming if doing the Syracuse day with Gabbi & Kevin
 - [ ] **Skaneateles Festival:** Check if any KidsFest events have open/free programming. Tickets for July/Aug on sale now at [skanfest.org](https://skanfest.org)
 - [ ] **Anyela's Vineyards:** Call ahead for food availability and extended June hours: (315) 685-3797

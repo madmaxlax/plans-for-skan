@@ -271,7 +271,6 @@ const JUNE_EVENTS: JuneEvent[] = [
 // ─── Follow-Ups ───────────────────────────────────────────────────────────────
 
 const FOLLOW_UPS = [
-  "Mid-Lakes Navigation (lunch/dinner cruises): Book ASAP — fills up fast. midlakesnavigation.com",
   "Harriet Tubman NHP 2026 hours: Fri–Sat only on website — call (315) 255-1553 to confirm expanded June hours",
   "Rosamond Gifford Zoo: Confirm any summer programming if doing Syracuse day with Gabbi & Kevin",
   "Anyela's Vineyards: Call ahead for food availability and extended June hours: (315) 685-3797",

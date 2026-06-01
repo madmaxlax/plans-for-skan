@@ -4,7 +4,6 @@ import {
   Palette,
   PawPrint,
   BookOpen,
-  Ship,
   Cake,
   PlayCircle,
   Calendar,
@@ -202,7 +201,6 @@ const BAKERIES = [
 const TIMING = [
   { activity: "Clift Park Swimming", june: "Lifeguards start late June only" },
   { activity: "Owasco Splash Pad", june: "Opens mid-June (weather dependent)" },
-  { activity: "Mid-Lakes Lunch Cruise", june: "Starts June 1" },
   { activity: "MOST Museum", june: "Thu–Sun year-round" },
   { activity: "Rosamond Gifford Zoo", june: "Open daily" },
   { activity: "PlaySpace Auburn", june: "Tue/Thu/Fri/Sat; Wed closed through ~June 17" },
@@ -276,26 +274,6 @@ export default function ToddlerPage() {
             ))}
           </div>
           <p className="text-xs text-slate-400 mt-2">Check skanlibrary.org for summer programming</p>
-        </Card>
-      </section>
-
-      {/* Mid-Lakes */}
-      <section>
-        <SectionHeader icon={Ship} title="Boat Cruises" subtitle="Mid-Lakes Navigation · 11 Jordan St" />
-        <Card>
-          <div className="divide-y divide-slate-100">
-            {[
-              { type: "Sightseeing (50 min)", details: "Daily, multiple times · $17 adults / $10 kids" },
-              { type: "Lunch Cruise", details: "Tue/Wed/Fri · $34/child (buffet) · starts June 1" },
-              { type: "Science Sunday", details: "July 5, 19, Aug 2, 16 · $20" },
-            ].map((c) => (
-              <div key={c.type} className="py-2.5 first:pt-0 last:pb-0">
-                <div className="font-medium text-slate-800 text-sm">{c.type}</div>
-                <div className="text-xs text-slate-500">{c.details}</div>
-              </div>
-            ))}
-          </div>
-          <p className="text-xs text-sky-700 mt-2">Dogs welcome on sightseeing cruises · Egan will love being on the water</p>
         </Card>
       </section>
 

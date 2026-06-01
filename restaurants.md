@@ -211,6 +211,5 @@
 - [ ] **Elephant and the Dove:** Call ahead; small intimate space
 - [ ] **Gilda's:** No reservations typically taken but can get busy — go early or off-peak
 - [ ] **Doug's Fish Fry:** No reservations needed, counter service — but can have a line in summer. Can also order ahead by phone
-- [ ] **Mid-Lakes Navigation lunch/dinner cruise:** Book online in advance — often sells out weeks ahead in June/July. [midlakesnavigation.com](https://www.midlakesnavigation.com)
 - [ ] **Anyela's Vineyards** (restaurant/food): Confirm food options available summer 2026: (315) 685-3797
 - [ ] **Elderberry Pond:** Reservations likely needed — call ahead for lunch availability

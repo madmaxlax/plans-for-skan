@@ -119,41 +119,7 @@
 | **Pine Grove / Town Launch** | West shore, ~2 mi south of village | Motor + kayak | Free |
 | **Mandana Marina** | West shore, mid-lake | Paid launch | Paid; near mid-lake |
 
-> **Note:** No commercial launch at the village — Mid-Lakes Navigation and rentals operate from marinas or the public launches.
-
----
-
-## Mid-Lakes Navigation Boat Tours ⭐⭐
-
-**Departure point:** Clift Park pier, W Genesee St, Skaneateles village
-**Season:** Mid-May through Columbus Day
-**Website:** [midlakesnavigation.com](https://www.midlakesnavigation.com)
-
-### Sightseeing Cruise (50 minutes)
-- **Route:** ~3 miles down the east shore, return on west shore; narrated history and highlights
-- **Adults:** $27 | **Children under 12:** $17
-- **Schedule:** 7 days/week, regularly scheduled
-- **Extras:** Cash bar + light snacks onboard; **dogs welcome on leash** 🐶
-- **Toddler verdict:** Perfect for Egan — short, comfortable, exciting. Best intro to the lake.
-
-### Lunch Cruise (2 hours)
-- **Menu:** Buffet — shaved prime rib, sliced turkey/ham/roast beef, salads, sides
-- **Adults:** $56 | **Children under 12:** $34
-- **Schedule:** Tue, Wed, Fri at 11:00am
-- **Season:** June 1 – September 30
-
-### Dinner Cruise
-- **June schedule:** Fri & Sat at 6:00pm; Sundays at 5:00pm
-- **Season:** June 1 – September 30
-- **Menu:** Pan-seared chicken, Atlantic salmon, pasta primavera; cash bar
-- *Check current pricing at [midlakesnavigation.com](https://www.midlakesnavigation.com)*
-
-### U.S. Mail Boat Cruise 🌟 (Special Experience!)
-- Delivers actual U.S. Mail to lake camps — one of the last operating mail boats in the country
-- **Season:** July 1 through the Tuesday after Labor Day
-- Not available in June, but **if any part of the trip extends into July** — don't miss this
-
-> **Book all cruises in advance.** Lunch and dinner cruises sell out weeks ahead in summer. Call or book online.
+> **Note:** No commercial launch at the village — rentals operate from marinas or the public launches.
 
 ---
 
@@ -190,7 +156,6 @@
 - **Life jackets:** Make sure Egan has a properly fitted USCG-approved infant/toddler PFD (Type II or III, ≤30 lbs or 30–50 lbs as needed). Many rentals include adult sizes but not infant — **bring your own.**
 - **Kayak with toddler:** Sit-on-top kayaks are more stable and easier for getting in/out with a toddler
 - **Pontoon boats:** Best option for a family outing — stable platform, railings, plenty of space
-- **Sightseeing cruise:** Dogs welcome, toddler-friendly, captain + crew onboard — safest intro to the lake
 
 ---
 
@@ -199,7 +164,6 @@
 - [ ] **Skaneateles Marina pontoon rental:** Book 4–6 weeks in advance for June weekends. Call (315) 685-6050 or check [skanmarina.com](https://www.skanmarina.com) — include a Monday or Tuesday for discounted pontoon rates
 - [ ] **The Sailboat Shop:** Call (315) 685-7558 to confirm 2026 rental pricing and Mon–Sat availability; ask about kayak delivery to rental address or NYS launch
 - [ ] **Lucky Buck Fishing:** Book early — popular guide, limited charter slots. Call (315) 481-2320 or check [luckybuckfishing.com](https://luckybuckfishing.com)
-- [ ] **Mid-Lakes Navigation:** Book lunch/dinner cruises as soon as dates are set. Use website or call directly. [midlakesnavigation.com](https://www.midlakesnavigation.com)
 - [ ] **NYS Fishing License:** Purchase before the trip online — [dec.ny.gov](https://dec.ny.gov/permits/fish-hunt-trap/fishing). ~$25/year for NY residents; ~$50 for non-residents
 - [ ] **Bass season regulations:** Confirm 2026 NYS regs — bass is typically catch-and-release only until mid-June on Skaneateles Lake. Check [dec.ny.gov](https://dec.ny.gov)
 - [ ] **Clift Park swim opening date:** Confirm exact 2026 opening — historically opens late June. Call Town of Skaneateles Parks: parks@townofskaneateles.com / (315) 685-3473

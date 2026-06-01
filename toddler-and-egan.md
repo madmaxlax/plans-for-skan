@@ -112,22 +112,6 @@ Right in town — walk or short drive. Programs resume with regular schedules (c
 
 ---
 
-## ⛵ Boat Cruises — Mid-Lakes Navigation
-
-- **Address:** 11 Jordan St, Skaneateles, NY
-- **Website:** midlakesnavigation.com
-
-| Cruise | Schedule | Cost (kids under 12) |
-|---|---|---|
-| **Sightseeing (50 min)** | Daily, multiple times | $17 |
-| **Lunch Cruise** | Tue/Wed/Fri; starts June 1 | $34 (buffet lunch included) |
-| **Science Sunday** | July 5, 19 / Aug 2, 16 at 10:30am | $20 |
-
-- Dogs welcome on sightseeing cruises; full bar available
-- Egan will love being on the water — short cruise is very manageable for a 2-year-old
-
----
-
 ## 🛝 Playgrounds
 
 | Playground | Location | Notes |
@@ -221,7 +205,6 @@ Right in town — walk or short drive. Programs resume with regular schedules (c
 ### 🎈 2nd Birthday Activity Ideas for Egan
 
 - **Smash cake + photos at Clift Park** — lakeside backdrop, golden hour lighting in June
-- **Private boat charter on Skaneateles Lake** — Mid-Lakes Navigation does private charters
 - **Zoo morning at Rosamond Gifford** — Egan gets in FREE; he'll love it
 - **Owasco Splash Pad party** — Free, easy, friends + family can spread out around the fountain area
 - **Community Center pool party** — Pool + cake room, all-in-one; easy to organize
@@ -236,7 +219,6 @@ Right in town — walk or short drive. Programs resume with regular schedules (c
 |---|---|
 | Clift Park Swimming | Lifeguards start **late June** only; check dates |
 | Owasco Splash Pad | Opens **mid-June** (weather dependent) |
-| Mid-Lakes Lunch Cruise | Starts **June 1** |
 | MOST Museum | Thu–Sun year-round |
 | Rosamond Gifford Zoo | Open daily |
 | PlaySpace Auburn | Tue/Thu/Fri/Sat; Wed closed through ~June 17 |

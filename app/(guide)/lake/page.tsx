@@ -152,30 +152,6 @@ export default function LakePage() {
         </div>
       </section>
 
-      {/* Cruises */}
-      <section>
-        <SectionHeader icon={Ship} title="Mid-Lakes Navigation Cruises" subtitle="11 Jordan St · midlakesnavigation.com" />
-        <div className="space-y-3">
-          {[
-            { type: "Sightseeing (50 min)", schedule: "Daily, multiple times", price: "$17 adults / $10 kids", notes: "Dogs welcome. Great intro to the lake for Egan." },
-            { type: "Lunch Cruise", schedule: "Tue, Wed, Fri at 11am · June 1–Sept 30", price: "$56 adults / $34 under 12", notes: "Buffet: prime rib, turkey, salads, sides." },
-            { type: "Dinner Cruise", schedule: "Fri & Sat 6pm; Sundays 5pm · June 1–Sept 30", price: "Check midlakesnavigation.com", notes: "Pan-seared chicken, salmon, pasta primavera; cash bar." },
-            { type: "U.S. Mail Boat", schedule: "July 1 through Tuesday after Labor Day", price: "Seasonal", notes: "One of the last operating mail boats in the country. Not available in June but worth noting if trip extends into July." },
-          ].map((cruise) => (
-            <Card key={cruise.type}>
-              <h3 className="font-bold text-slate-800 text-sm mb-1">{cruise.type}</h3>
-              <div className="text-xs text-slate-500 mb-1">{cruise.schedule}</div>
-              <div className="text-xs font-medium text-emerald-700 mb-1.5">{cruise.price}</div>
-              <p className="text-xs text-slate-600">{cruise.notes}</p>
-            </Card>
-          ))}
-          <div className="flex items-start gap-2 bg-orange-50 rounded-lg p-3">
-            <AlertTriangle className="w-4 h-4 text-orange-500 shrink-0 mt-0.5" />
-            <p className="text-sm text-orange-700">Book all cruises in advance. Lunch and dinner cruises sell out weeks ahead in summer.</p>
-          </div>
-        </div>
-      </section>
-
       {/* Swimming */}
       <section>
         <SectionHeader icon={Waves} title="Swimming & Beach Access" />
@@ -220,7 +196,6 @@ export default function LakePage() {
             "Skaneateles Marina pontoon rental: Book 4–6 weeks in advance for June weekends",
             "The Sailboat Shop: Call (315) 685-7558 to confirm 2026 rental pricing and Mon–Sat availability",
             "Lucky Buck Fishing: Book early — popular guide, limited charter slots. (315) 481-2320",
-            "Mid-Lakes Navigation: Book lunch/dinner cruises as soon as dates are set",
             "NYS Fishing License: Purchase before the trip at dec.ny.gov",
             "Bass season: Confirm 2026 regulations — typically catch-and-release until mid-June",
             "Toddler life jacket: Bring Egan's own USCG-approved PFD",

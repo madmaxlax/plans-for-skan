@@ -142,15 +142,6 @@ const PICKLEBALL = [
     phone: "(315) 685-2266",
     accent: "none" as const,
   },
-  {
-    name: "Auburn YMCA — Indoor Pickleball",
-    address: "62 Turner St, Auburn, NY",
-    cost: "$10 non-member · $5 with Skan PB Club",
-    hours: "Tue/Thu mornings + Mon/Wed/Fri with club",
-    details: "3 indoor courts. ~20 min from Skaneateles. Popular with local pickleball community.",
-    website: "auburnymca.org",
-    accent: "none" as const,
-  },
 ];
 
 // ─── Tennis ──────────────────────────────────────────────────────────────────
@@ -464,7 +455,6 @@ export default function SportsPage() {
               { name: "Pearl Lakes Golf", phone: "(315) 685-6799", note: "9-hole course + driving range" },
               { name: "Highland Park Golf", phone: "(315) 252-4993", note: "Best 18-hole near Auburn" },
               { name: "Josh Card (SCC Leagues)", phone: "Jcard@skancc.com", note: "Softball, volleyball registration" },
-              { name: "Auburn YMCA", phone: "auburnymca.org", note: "Indoor pickleball drop-in" },
             ].map((c) => (
               <div key={c.name} className="py-2.5 first:pt-0 last:pb-0">
                 <div className="font-medium text-slate-800 text-sm">{c.name}</div>

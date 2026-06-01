@@ -183,22 +183,10 @@
 ### Skaneateles Pickleball Club (Informal Community Group)
 **The local group to plug into**
 
-- Plays at Austin Park outdoor courts (1 morning/week) and Auburn YMCA (3 mornings: Mon/Wed/Fri)
-- **Cost:** Free at Austin Park; $5 non-member fee at the Y
+- Plays at Austin Park outdoor courts (1 morning/week)
+- **Cost:** Free at Austin Park
 - **Perks:** Free beginner lessons, loaner paddles available
-- **Find them at:** playpickleball.com (search Skaneateles) or show up at Austin Park or Auburn YMCA on a weekday morning
-
----
-
-### Auburn YMCA — Indoor Pickleball
-**Nearby drop-in option, 3 courts**
-
-- **Address:** 62 Turner Street, Auburn, NY
-- **Courts:** 3 indoor courts
-- **Drop-in Times:** Tuesdays & Thursdays mornings (confirmed drop-in). Also Mon/Wed/Fri mornings through local pickleball club.
-- **Cost:** $10 for non-members; $5 if coming with Skaneateles Pickleball Club
-- **Website:** auburnymca.org
-- **Notes:** ~20 minutes from Skaneateles. Popular with the local pickleball community.
+- **Find them at:** playpickleball.com (search Skaneateles) or show up at Austin Park on a weekday morning
 
 ---
 
@@ -415,7 +403,6 @@ The **Skaneateles Community Center** (97 State St, (315) 685-2266, Jcard@skancc.
 | Town of Skaneateles Parks & Rec | parksrec.egov.basgov.com/skaneateles |
 | PlaySSA (Syracuse adult rec sports) | playssa.com |
 | CNYFSC Adult Soccer | cnyfsc.com/soccer/adult |
-| Auburn YMCA Pickleball | auburnymca.org • 62 Turner St, Auburn NY |
 | Highland Park Golf (tee times) | (315) 252-4993 • highlandparkgolfclub.com |
 | Pearl Lakes Golf & Driving Range | (315) 685-6799 • pearllakesgc@gmail.com |
 | Vesper Hills Golf | (315) 696-8328 · 4291 Octagon Rd, Tully NY |

@@ -228,7 +228,6 @@ const FOLLOW_UPS = [
   "Bluewater Grill: Outdoor patio fills up fast on warm summer evenings — reserve ahead",
   "Gilda's: No reservations typically taken — go early or off-peak",
   "Doug's Fish Fry: No reservations needed but can have a line in summer. Can order ahead by phone",
-  "Mid-Lakes Navigation lunch/dinner cruise: Book online in advance — often sells out weeks ahead",
 ];
 
 export default function FoodPage() {
