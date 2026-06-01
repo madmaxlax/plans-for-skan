@@ -3,6 +3,17 @@
 
 ---
 
+## 🎯 Egan's Day Camp — Booked
+
+| Status | Dates | Time |
+|---|---|---|
+| ✅ **Confirmed** | Mon Jun 22 – Fri Jun 26, 2026 | 9:00am – 12:00pm |
+| 🤔 Considering | Mon Jun 29 – Fri Jul 3, 2026 | 9:00am – 12:00pm |
+
+The anchor of those two weeks. Adult mornings (golf, pickleball, lake paddle, coffee in the village) need to wrap by ~11:45 for the noon pickup. See [`daycares-dropins.md`](./daycares-dropins.md) for venue details + drop-in alternatives on off-days.
+
+---
+
 ## 🏖️ Beaches & Water
 
 ### Clift Park Beach — Skaneateles Lake ⭐

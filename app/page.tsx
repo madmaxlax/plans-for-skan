@@ -5,6 +5,7 @@ import TodayDeck from "./components/home/TodayDeck";
 import LookingAheadRail from "./components/home/LookingAheadRail";
 import WeekStoryboard from "./components/home/WeekStoryboard";
 import GuideTiles from "./components/home/GuideTiles";
+import ScheduleHighlights, { buildAnchorPreview, buildWeekRow } from "./components/home/ScheduleHighlights";
 
 import { getTripDay } from "./lib/today";
 import { buildStoryboard } from "./lib/storyboard";
@@ -13,6 +14,7 @@ import { getWeather } from "./lib/weather";
 import { getLakeTemp } from "./lib/lake-temp";
 import { deckForDate } from "./data/today-deck";
 import { RAINY_PICKS } from "./data/rainy-picks";
+import { nextAnchor, thisWeekSchedule } from "./data/schedule";
 
 export const revalidate = 1800; // 30min — the page itself can be served from the edge for half an hour
 
@@ -30,6 +32,17 @@ export default async function HomePage() {
   const thisWeek = getThisWeek(deckDate);
   const storyboard = buildStoryboard(tripDay);
   const deckLabel = pickDeckLabel(tripDay);
+
+  // Schedule highlights — same anchor source the /schedule page uses.
+  const anchor = nextAnchor(tripDay.todayISO);
+  const anchorPreview = anchor ? buildAnchorPreview(anchor.item, anchor.dateISO) : null;
+  const weekRows = thisWeekSchedule(tripDay.todayISO)
+    .flatMap(({ dateISO, items }) =>
+      items
+        .filter((it) => it.kind === "booking" || it.kind === "dated")
+        .map((it) => buildWeekRow(dateISO, it)),
+    )
+    .slice(0, 6);
 
   return (
     <div className="min-h-screen">
@@ -55,6 +68,10 @@ export default async function HomePage() {
 
       <div className="px-6 md:px-14 pt-6">
         <WeekStoryboard days={storyboard} />
+      </div>
+
+      <div className="px-6 md:px-14 pt-8">
+        <ScheduleHighlights todayISO={tripDay.todayISO} nextAnchor={anchorPreview} weekItems={weekRows} />
       </div>
 
       <div className="px-6 md:px-14 py-10">

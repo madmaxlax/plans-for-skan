@@ -3,6 +3,17 @@
 
 ---
 
+## 🎯 Egan's Day Camp — Booked
+
+| Status | Dates | Time |
+|---|---|---|
+| ✅ **Confirmed** | Mon Jun 22 – Fri Jun 26, 2026 | 9:00am – 12:00pm |
+| 🤔 Considering | Mon Jun 29 – Fri Jul 3, 2026 | 9:00am – 12:00pm |
+
+These mornings are the anchor of those two weeks — adult activities (golf, pickleball, lake morning) should plan to wrap up by ~11:45 for the noon pickup. Confirm exact venue and pickup logistics directly with the camp before the trip.
+
+---
+
 ## ✅ Confirmed Drop-In Options
 
 ### 1. The PIP Stop — Camillus Location ⭐

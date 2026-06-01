@@ -11,17 +11,19 @@ import {
   CloudRain,
   MapPin,
   Dumbbell,
+  Calendar,
 } from "lucide-react";
 
 const NAV_ITEMS = [
-  { href: "/",          label: "Home",   icon: Home },
-  { href: "/food",      label: "Food",   icon: UtensilsCrossed },
-  { href: "/lake",      label: "Lake",   icon: Waves },
-  { href: "/outdoors",  label: "Hikes",  icon: Mountain },
-  { href: "/toddler",   label: "Egan",   icon: Baby },
-  { href: "/rainy-day", label: "Rainy",  icon: CloudRain },
-  { href: "/day-trips", label: "Trips",  icon: MapPin },
-  { href: "/sports",    label: "Sports", icon: Dumbbell },
+  { href: "/",          label: "Home",     icon: Home },
+  { href: "/schedule",  label: "Schedule", icon: Calendar },
+  { href: "/food",      label: "Food",     icon: UtensilsCrossed },
+  { href: "/lake",      label: "Lake",     icon: Waves },
+  { href: "/outdoors",  label: "Hikes",    icon: Mountain },
+  { href: "/toddler",   label: "Egan",     icon: Baby },
+  { href: "/rainy-day", label: "Rainy",    icon: CloudRain },
+  { href: "/day-trips", label: "Trips",    icon: MapPin },
+  { href: "/sports",    label: "Sports",   icon: Dumbbell },
 ];
 
 export default function NavBar() {
@@ -58,7 +60,7 @@ export default function NavBar() {
 
       {/* Mobile bottom nav — always visible */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-cream-300">
-        <div className="grid grid-cols-8 h-14">
+        <div className="grid grid-cols-9 h-14">
           {NAV_ITEMS.map(({ href, label, icon: Icon }) => {
             const active = pathname === href;
             return (

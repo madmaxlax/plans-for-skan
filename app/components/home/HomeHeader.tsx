@@ -4,6 +4,7 @@ import type { TripDay } from "@/app/lib/today";
 
 const NAV = [
   { href: "/",          label: "Today" },
+  { href: "/schedule",  label: "Schedule" },
   { href: "/food",      label: "Food" },
   { href: "/lake",      label: "Lake" },
   { href: "/outdoors",  label: "Hikes" },
