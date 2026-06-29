@@ -98,8 +98,8 @@ export const BOOKINGS: Booking[] = [
   {
     kind: "booking",
     id: "egan-camp-w2",
-    title: "Egan day camp (considering)",
-    status: "considering",
+    title: "Egan day camp",
+    status: "confirmed",
     startDate: "2026-06-29",
     endDate: "2026-07-03",
     daysOfWeek: ["mon", "tue", "wed", "thu", "fri"],
@@ -107,7 +107,7 @@ export const BOOKINGS: Booking[] = [
     timeEnd: "12:00pm",
     category: "toddler",
     accent: "coral",
-    notes: "Not yet committed — decide based on how the first week went.",
+    notes: "Pickup by 11:45am. Nap immediately after pickup — noon to ~2:30pm is blocked. Adult free window: 9am–11:45am.",
   },
 ];
 
