@@ -84,6 +84,7 @@ Best day trip for waterfall-and-nature lovers. Combine with gorge hiking (see hi
 - **Live music Sundays 2–5pm** (Sunday afternoon sessions, same series)
 - **Trivia Thursdays 6:30pm**
 - Craft beer + outdoor hang — a go-to for summer evenings when you want something livelier than the village but don't want a full dinner out
+- **Mass Riot Day — Saturday August 1, 12:00–7:00pm** 🎉 — big outdoor all-day event at the Farm
 - [prisoncitybrewing.com](https://prisoncitybrewing.com)
 
 ---
@@ -203,9 +204,13 @@ America's first wine trail — 16 wineries along Cayuga Lake. Easy to hit 2–4 
 ### Later Summer (just miss June — worth knowing)
 - **Skaneateles Festival:** July 30 – August 22, 2026
   - 13 main-series concerts, 2 KidsFest performances, free lecture series
-  - Classical, Jazz, Bluegrass, Broadway
-  - [skanfest.org](https://skanfest.org) — tickets on sale now
-  - Week passes, individual tickets, Church Concert Package, Vineyard Series available
+  - Classical, Jazz, Bluegrass, Broadway — First Presbyterian Church (97 E. Genesee St)
+  - [skanfest.org](https://skanfest.org) — tickets required for main series; week passes and individual tickets available
+  - **Opening week (confirmed 2026 schedule):**
+    - **Tue Jul 28:** FREE SkanFest U: American Revolutions, 4:00–5:00pm *(first of 4 Tuesdays, 7/28–8/18 — live performances + discussion)*
+    - **Thu Jul 30:** Opening Night: Revolutionary Portraits, 7:30–9:00pm ⭐ *(ticketed)*
+    - **Fri Jul 31:** Pacifica Quartet and Aaron Wunsch, 7:30–9:00pm *(ticketed)*
+  - SkanFest U (FREE): Four Tuesdays, July 28–August 18, 4:00–5:00pm — no tickets needed
 - **Free Friday Gazebo Concerts:** Fridays in July, Clift Park
 
 ---

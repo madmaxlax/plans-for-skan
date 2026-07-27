@@ -7,6 +7,10 @@
     {
       "start": "2026-06-19",
       "end": "2026-07-05"
+    },
+    {
+      "start": "2026-07-27",
+      "end": "2026-08-02"
     }
   ],
   "recurring_weekly": [
@@ -555,6 +559,171 @@
       "venue": "Crazy Daisies",
       "name": "CLOSED",
       "category": "closure"
+    },
+    {
+      "date": "2026-07-28",
+      "venue": "Crazy Daisies",
+      "name": "Canine & Cocktails",
+      "time": "4:00pm",
+      "cost": "free",
+      "category": "social",
+      "note": "Dogs welcome on terrace \u2014 recurring Tuesdays"
+    },
+    {
+      "date": "2026-07-28",
+      "venue": "Skaneateles Festival",
+      "name": "FREE: SkanFest U \u2014 American Revolutions",
+      "time": "4:00pm-5:00pm",
+      "cost": "free",
+      "category": "music",
+      "highlight": true,
+      "note": "First of 4 Tuesdays (Jul 28\u2013Aug 18). First Presbyterian Church, 97 E. Genesee St. Classical + jazz educators, live performances."
+    },
+    {
+      "date": "2026-07-29",
+      "venue": "Crazy Daisies",
+      "name": "Bouquet Class",
+      "time": "5:30pm",
+      "cost": "$45",
+      "category": "workshop"
+    },
+    {
+      "date": "2026-07-29",
+      "venue": "Crazy Daisies",
+      "name": "Watercolor: Florals, Fruits & Veggies",
+      "time": "5:30pm",
+      "cost": "$80",
+      "category": "workshop"
+    },
+    {
+      "date": "2026-07-29",
+      "venue": "Crazy Daisies",
+      "name": "Acrylic Painting Workshop: \"En Rose\" (Right Mind Syracuse)",
+      "time": "5:30pm",
+      "cost": "free",
+      "category": "workshop"
+    },
+    {
+      "date": "2026-07-29",
+      "venue": "Crazy Daisies",
+      "name": "Mandala Moon Yoga",
+      "time": "6:00pm",
+      "cost": "free",
+      "category": "fitness"
+    },
+    {
+      "date": "2026-07-29",
+      "venue": "Prison City Brewing (State St)",
+      "name": "Single Mingle!",
+      "time": "6:00pm-9:00pm",
+      "category": "social",
+      "note": "28 State St, Auburn \u2014 downtown pub location (not the Farm)"
+    },
+    {
+      "date": "2026-07-30",
+      "venue": "Skaneateles Farmers Market",
+      "name": "Thursday Market",
+      "time": "3:00pm-6:00pm",
+      "category": "food",
+      "note": "Austin Park Pavilion, 1 E Austin St"
+    },
+    {
+      "date": "2026-07-30",
+      "venue": "Crazy Daisies",
+      "name": "Trivia Night",
+      "time": "6:00pm",
+      "cost": "free",
+      "category": "social"
+    },
+    {
+      "date": "2026-07-30",
+      "venue": "Skaneateles Festival",
+      "name": "Opening Night: Revolutionary Portraits",
+      "time": "7:30pm-9:00pm",
+      "cost": "ticketed",
+      "category": "music",
+      "highlight": true,
+      "note": "First Presbyterian Church, 97 E. Genesee St. Skanfest 2026 opening. skanfest.org"
+    },
+    {
+      "date": "2026-07-31",
+      "venue": "Crazy Daisies",
+      "name": "Lock into Rhythm: DJ Night",
+      "time": "5:00pm",
+      "cost": "$30",
+      "category": "music"
+    },
+    {
+      "date": "2026-07-31",
+      "venue": "Baltimore Woods",
+      "name": "Nature Trivia Night at the Woods",
+      "time": "6:30pm-8:00pm",
+      "cost": "$6-9",
+      "category": "social",
+      "note": "4007 Bishop Hill Rd, Marcellus. Adults only."
+    },
+    {
+      "date": "2026-07-31",
+      "venue": "Skaneateles Festival",
+      "name": "Pacifica Quartet and Aaron Wunsch",
+      "time": "7:30pm-9:00pm",
+      "cost": "ticketed",
+      "category": "music",
+      "highlight": true,
+      "note": "First Presbyterian Church, 97 E. Genesee St. skanfest.org"
+    },
+    {
+      "date": "2026-08-01",
+      "venue": "Baltimore Woods",
+      "name": "TREES Crew (Restoration Stewardship)",
+      "time": "10:00am-12:00pm",
+      "cost": "free",
+      "category": "outdoors",
+      "note": "Adults \u2014 4007 Bishop Hill Rd, Marcellus"
+    },
+    {
+      "date": "2026-08-01",
+      "venue": "Baltimore Woods",
+      "name": "Wilderness Skills Workshop: Natural Navigation & Awareness",
+      "time": "10:00am-1:00pm",
+      "cost": "$30",
+      "category": "outdoors",
+      "note": "Adults + older teens w/ supervision \u2014 4007 Bishop Hill Rd"
+    },
+    {
+      "date": "2026-08-01",
+      "venue": "Baltimore Woods",
+      "name": "Literature & Nature Book Group",
+      "time": "10:30am-12:00pm",
+      "cost": "free",
+      "category": "social",
+      "note": "Adults \u2014 4007 Bishop Hill Rd"
+    },
+    {
+      "date": "2026-08-01",
+      "venue": "Prison City Brewing (Farm)",
+      "name": "Mass Riot Day",
+      "time": "12:00pm-7:00pm",
+      "category": "music",
+      "highlight": true,
+      "note": "251 North St, Auburn. All-day outdoor event at the Farm. prisoncitybrewing.com"
+    },
+    {
+      "date": "2026-08-02",
+      "venue": "Skaneateles Farmers Market",
+      "name": "Saturday Market",
+      "time": "9:30am-12:30pm",
+      "category": "food",
+      "note": "Austin Park Pavilion, 1 E Austin St"
+    },
+    {
+      "date": "2026-08-02",
+      "venue": "Prison City Brewing (Farm)",
+      "name": "Summer Music at the Farm: Dave Porter of 805",
+      "time": "2:00pm-5:00pm",
+      "cost": "free",
+      "category": "music",
+      "note": "251 North St, Auburn. Outdoor Sunday series."
     }
   ]
 }
